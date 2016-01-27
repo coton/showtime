@@ -1,4 +1,4 @@
-// Generated on 2016-01-22 using
+// Generated on 2016-01-27 using
 // generator-webapp 1.1.1
 'use strict';
 
@@ -208,7 +208,6 @@ module.exports = function (grunt) {
     wiredep: {
       app: {
         src: ['<%= config.app %>/index.html'],
-        exclude: ['bootstrap.js'],
         ignorePath: /^(\.\.\/)*\.\./
       },
       sass: {
@@ -344,12 +343,6 @@ module.exports = function (grunt) {
             '{,*/}*.html',
             'fonts/{,*/}*.*'
           ]
-        }, {
-          expand: true,
-          dot: true,
-          cwd: '.',
-          src: 'bower_components/bootstrap-sass/assets/fonts/bootstrap/*',
-          dest: '<%= config.dist %>'
         }]
       }
     },
