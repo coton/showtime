@@ -1,66 +1,35 @@
+body{background:#fafafa;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#333;position:absolute;margin:0;padding:0;width:100%}
 
-body {
-  background: #fafafa;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-
-}
-
-
+/*-- min-width: 1200px
+====================================================== */
 @media (min-width: 1200px){
 
-  .container {
-    width: 100%;
-    height: 700px;
-    margin: 0;
-    padding: 0;
-  }
+/*-- index.html
+====================================================== */
+.container{width:100%;height:700px;margin:0;padding:0}
+.logo{position:absolute;top:20px;left:50px;width:150px}
 
-  .logo{
-    position: absolute;
-    top: 20px;
-    left: 50px;
-    width:150px;
-  }
 
-  .useage-wrap{
-    width: 100%;
-    height: 210px;
-    background-color: #efefef;
-    text-align: center;
-  }
+/* useage */
+.useage-wrap{width:100%;height:245px;background-color:#efefef;text-align:center}
+.useage-wrap .useage{width:100%;margin:0 auto}
+.useage-wrap .useage div{float:left;width:31%;padding:50px 0;margin:0 10px}
+.useage-wrap .useage img{max-width:100%}
 
-  .useage-wrap .useage{
-    width: 100%;
-    margin:0px auto;
-  }
 
-  .useage-wrap .useage div{
-    float: left;
-    width: 31%;
-    padding: 50px 0px;
-    margin: 0px 10px;
-  }
+/* uploadandpreview */
+.uploadandpreview-wrap{width:100%;height:800px;background-color:#d7d7d7; text-align: center; overflow: hidden;}
+.uploadandpreview-wrap .upload{width:60%; height: 300px; margin: 50px auto; background-color: #e1e1e1; border:2px solid #fff;}
+.uploadandpreview-wrap .upload .icon{margin: 40px auto 20px;}
+.uploadandpreview-wrap .upload .info{margin: 10px auto; font-size: 35px; color: #b2b2b2;}
 
-  .useage-wrap .useage img{
-    max-width: 100%;
-  }
+.uploadandpreview-wrap .review{width:50%; height: 800px; margin: 0px auto; border: 1px solid red;}
 
-  .uploadandpreview-wrap{
-    width: 100%;
-    height: 800px;
-    background-color: #cdcdcd;
-  }
 
-  .footer-wrap
-  {
-    width: 100%;
-    height: 120px;
-    background-color: #4c4c4c;
-  }
+/* footer */
+.footer-wrap{width:100%;height:120px;background-color:#4c4c4c}
+
+
+
 
 }
