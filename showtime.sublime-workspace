@@ -4,127 +4,335 @@
 		"selected_items":
 		[
 			[
-				"ov",
-				"overflow"
-			],
-			[
-				"mar",
-				"margin-right"
-			],
-			[
-				"v",
-				"vertical-align"
-			],
-			[
-				"al",
-				"vertical-align"
-			],
-			[
-				"margin",
-				"margin"
-			],
-			[
-				"b",
-				"bold"
-			],
-			[
-				"fon",
-				"font-weight"
-			],
-			[
-				"back",
-				"background-image"
-			],
-			[
-				"st",
-				"stop"
-			],
-			[
-				"get",
-				"geturlparam"
-			],
-			[
 				"s",
-				"show_layout"
+				"slideTo"
 			],
 			[
-				"cl",
-				"clearInterval"
+				"swipe",
+				"swipeUp"
 			],
 			[
-				"sh",
-				"show_e3_animation"
-			],
-			[
-				"show",
-				"show_e2_animation"
-			],
-			[
-				"bac",
-				"background-image"
-			],
-			[
-				"set",
-				"setInterval"
-			],
-			[
-				"pr",
-				"prev"
-			],
-			[
-				"d",
-				"data"
-			],
-			[
-				"bind",
-				"bind_gamestart_event"
-			],
-			[
-				"op",
-				"opacity"
-			],
-			[
-				"music",
-				"music_status"
-			],
-			[
-				"bl",
-				"block"
-			],
-			[
-				"f",
-				"fixed"
-			],
-			[
-				"co",
-				"color"
+				"scr",
+				"scripts"
 			],
 			[
 				"font",
 				"font-size"
 			],
 			[
-				"pos",
-				"position"
+				"tim",
+				"timerange-layout"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"camp",
+				"campaign-list"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"set",
+				"set_sharecontent"
+			],
+			[
+				"update",
+				"update_wechatsharecontent"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"st",
+				"starttime"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"trans",
+				"translate3d"
+			],
+			[
+				"page_",
+				"page_v_index"
+			],
+			[
+				"page",
+				"page_v_index"
+			],
+			[
+				"wd",
+				"width"
+			],
+			[
+				"fu",
+				"fullpage"
+			],
+			[
+				"to",
+				"totalscore"
+			],
+			[
+				"tra",
+				"tracking"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"head",
+				"headimgurl"
+			],
+			[
+				"lod",
+				"load_ranklist"
+			],
+			[
+				"d",
+				"data"
+			],
+			[
+				"c",
+				"currentuserphone"
+			],
+			[
+				"curr",
+				"get_currentuserphone"
+			],
+			[
+				"get_",
+				"get_headimgurl"
+			],
+			[
+				"curre",
+				"currentuserphone"
+			],
+			[
+				"we",
+				"welcone-close"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"show",
+				"show_hit"
+			],
+			[
+				"b",
+				"both"
+			],
+			[
+				"f",
+				"font"
 			],
 			[
 				"wid",
 				"width"
 			],
 			[
-				"text",
+				"list",
+				"list-style"
+			],
+			[
+				"rmb",
+				"rmb-layout"
+			],
+			[
+				"WID",
+				"width"
+			],
+			[
+				"prize",
+				"prize_wrampack"
+			],
+			[
+				"wr",
+				"wrampackprize"
+			],
+			[
+				"row",
+				"num_rows"
+			],
+			[
+				"rs",
+				"rs_query"
+			],
+			[
+				"strr",
+				"str_replace"
+			],
+			[
+				"result",
+				"ResultBackground"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"game",
+				"game-layout"
+			],
+			[
+				"swiper",
+				"swiperup"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"tex",
 				"text-align"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"fot",
+				"font-size"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/Program Files/xampp/htdocs/showtime/app/index.html",
+			"file": "app/styles/main.css",
 			"settings":
 			{
-				"buffer_size": 4779,
-				"line_ending": "Windows"
+				"buffer_size": 3392,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 4802,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/main.js",
+			"settings":
+			{
+				"buffer_size": 1348,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "showtime.sublime-project",
+			"settings":
+			{
+				"buffer_size": 163,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/upload.php",
+			"settings":
+			{
+				"buffer_size": 451,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "Xdebug Context",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "|+| \"$postdata\"\n|+| \"$url\"\n|+| \"$response->raw_body\"\n|+| \"json_encode($response->raw_body)\"\n|+| \"$key\"\n|+| \"$val\"\n|+| \"$val[1]\"\n|+| \"$val[0]\"\n|+| \"$valv[2]\"\n",
+			"settings":
+			{
+				"buffer_size": 157,
+				"line_ending": "Unix",
+				"name": "Xdebug Watch",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "Xdebug Stack",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "=> /Users/createc/Documents/dev/projects/CREATEC-Solutions/showtime/app/upload.php\n	|+| 2\n",
+			"settings":
+			{
+				"buffer_size": 90,
+				"line_ending": "Unix",
+				"name": "Xdebug Breakpoint",
+				"read_only": true,
+				"scratch": true
 			}
 		}
 	],
@@ -135,24 +343,80 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 173.0,
-		"last_filter": "xdebug:st",
+		"height": 67.0,
+		"last_filter": "installpackage",
 		"selected_items":
 		[
 			[
-				"xdebug:st",
-				"Xdebug: Start Debugging (Launch Browser)"
-			],
-			[
-				"xde",
-				"Xdebug: Start Debugging (Launch Browser)"
-			],
-			[
-				"Package Control: in",
+				"installpackage",
 				"Package Control: Install Package"
 			],
 			[
+				"x",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"xd",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"xde",
+				"Xdebug: Stop Debugging"
+			],
+			[
+				"X",
+				"Xdebug: Stop Debugging (Close Windows)"
+			],
+			[
+				"xdebu",
+				"Xdebug: Stop Debugging"
+			],
+			[
 				"xdebug",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"xdeb",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"xs",
+				"Xdebug: Stop Debugging (Close Windows)"
+			],
+			[
+				"XDEBU",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"xdee",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"xdebug:st",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"xden",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"xdeebug",
+				"Xdebug: Stop Debugging (Close Windows)"
+			],
+			[
+				"xdebug:s",
+				"Xdebug: Stop Debugging"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"xdebg",
+				"Xdebug: Start Debugging"
+			],
+			[
+				"xdeubug",
 				"Xdebug: Start Debugging (Launch Browser)"
 			],
 			[
@@ -160,7 +424,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -181,134 +445,141 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Program Files/xampp/htdocs/showtime",
-		"/C/Program Files/xampp/htdocs/showtime/app"
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/showtime",
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/showtime/app",
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/showtime/app/scripts",
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/showtime/app/styles"
 	],
 	"file_history":
 	[
-		"/C/home/dev/code/git/showtime/showtime/app/favicon.ico",
-		"/C/Program Files/xampp/htdocs/geoxnewyear16-h5app/js/app.js",
-		"/C/Program Files/xampp/htdocs/geoxnewyear16-h5app/index.php",
-		"/C/Program Files/xampp/htdocs/geoxnewyear16-h5apptest/index.php",
-		"/C/Program Files/xampp/htdocs/geoxnewyear16-h5apptest/js/app.js",
-		"/C/Program Files/xampp/htdocs/geoxnewyear16-h5apptest/js/test.js",
-		"/C/home/dev/code/git/FullScreenMario/Source/settings/math.js",
-		"/C/home/dev/code/git/FullScreenMario/Source/settings/math.ts",
-		"/C/home/dev/code/git/FullScreenMario/Source/settings/mods.js",
-		"/C/home/dev/code/git/FullScreenMario/Source/settings/objects.js",
-		"/C/home/dev/code/git/FullScreenMario/task.txt",
-		"/C/home/dev/code/git/FullScreenMario/Source/settings/maps/1-1.js",
-		"/C/home/tmp/geoxnewyear16-h5app/geoxnewyear16-h5app/js/app.js",
-		"/C/Program Files/xampp/htdocs/geoxnewyear16-h5app/wechat/weChatShareJS.php",
-		"/C/Program Files/xampp/htdocs/geoxnewyear16-h5app/db/addsharelog.php",
-		"/C/Program Files/xampp/htdocs/geoxnewyear16-h5app/README.md",
-		"/C/Program Files/xampp/htdocs/sleep_h5app/index.php",
-		"/C/Program Files/xampp/htdocs/sleep_h5app/weChat/weChatShareJS.php",
-		"/C/Program Files/xampp/htdocs/sleep_h5app/weChat/WeChat-JSSDK-ShareInterface-master/weChat/weChatShareJS.php",
-		"/C/Program Files/xampp/htdocs/24hours-h5app/app.appcache",
-		"/C/Program Files/xampp/htdocs/24hours-h5app/js/app.js",
-		"/C/Program Files/xampp/htdocs/24hours-h5app/index.php",
-		"/C/Program Files/xampp/htdocs/24hours-h5app/js/fastclick/fastclick.js",
-		"/C/Program Files/xampp/htdocs/24hours-h5app/js/audioplayer/audioplayer.css",
-		"/C/Program Files/xampp/htdocs/24hours-h5app/css/app.css",
-		"/C/Program Files/xampp/htdocs/24hours-h5app/weChat/weChatShareJS.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/css/app.css",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/js/app.js",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/player2.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/index.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon1/index.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon1/db/getcurrentplayerrank.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon1/player2.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon1/weChat/config.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon1/weChat/weChatShareJS.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon1/js/app.js",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon1/js/player2.js",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/weChat/weChatShareJS.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/weChat/weChatId.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/weChat/config.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/js/player2.js",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/js/timer/timer.min.js",
-		"/C/home/dev/code/git/shanlinbao-h5-app/weChat/config.php",
-		"/C/home/dev/code/git/shanlinbao-h5-app/weChat/weChatShareJS.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/luolai-h5-20151205.sublime-project",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon/js/player2.js",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon/js/app.js",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon/css/app.css",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon/readme.txt",
-		"/C/home/dev/code/git/html5-app-template/css/app.css",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon/db/connect.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon/index.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon/player2.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon/db/luolai151205coupon.sql",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon/weChat/config.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/js/zepto/zepto.min.js",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/readme.txt",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/updateplayer1toready.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/updateplayer2toready.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/luolai151205.sql",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/getplayer1info.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/getplayer2info.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/updatescorebyplayer2.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/updatescorebyplayer1.php",
-		"/C/home/dev/code/git/shanlinbao-h5-app/js/app.js",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/getcurrentplayerrank.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/getplayer2info - Copy.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/updateplayer1.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/updateplayer2.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/addplayer2.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/addplayer1.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/connect.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/getrank.php",
-		"/C/home/dev/code/git/shanlinbao-h5-app/css/app.css",
-		"/C/home/tmp/html5shake/index.html",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/index.html",
-		"/C/home/dev/code/git/WeChat-JSSDK-ShareInterface/weChat/weChatShareJS.php",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/player2.html",
-		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/getcurrentuserrank.php",
-		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/db/addplayer1.php",
-		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/index.html",
-		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/player2.html",
-		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/js/app.js",
-		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/db/luolai151205.sql",
-		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/css/app.css",
-		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/js/player2.js",
-		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/db/addplayer2.php",
-		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/weChat/config.php",
-		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/app.appcache",
-		"/C/home/tmp/taobao-201501/taobao-201501/buy.html",
-		"/C/home/tmp/taobao-201501/taobao-201501/buy-success.html",
-		"/C/home/tmp/taobao-201501/taobao-201501/share.html",
-		"/C/home/tmp/taobao-201501/taobao-201501/index.html",
-		"/C/Program Files/xampp/htdocs/eggtour620/data/db/conn.php",
-		"/C/Program Files/xampp/htdocs/eggtour620/js/common.js",
-		"/C/Program Files/xampp/htdocs/eggtour620/index.php",
-		"/C/Program Files/xampp/htdocs/eggtour620/function.php",
-		"/C/home/dev/code/projects/skullcandy/20151105 skullcandy-taobao1111-part2/skullcandy15111p2/css/app.css",
-		"/C/home/dev/code/projects/skullcandy/20151105 skullcandy-taobao1111-part2/skullcandy15111p2/weChat/config.php",
-		"/C/home/dev/code/projects/skullcandy/20151105 skullcandy-taobao1111-part2/skullcandy15111p2/index.php",
-		"/C/home/dev/code/projects/skullcandy/20151105 skullcandy-taobao1111-part2/skullcandy15111p2/home.html",
-		"/C/Program Files/xampp/htdocs/skullcandy-taobao151111/css/app.css",
-		"/C/Program Files/xampp/htdocs/skullcandy-taobao151111/weChat/jssdk.php",
-		"/C/Program Files/xampp/htdocs/skullcandy-taobao151111/weChat/weChatShareJS.php",
-		"/C/home/dev/code/projects/skullcandy/20151019 skullcandy-taobao1111/skullcandy-taobao151111/weChat/config.php",
-		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/game.php",
-		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/index.php",
-		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/css/app.css",
-		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/game.html",
-		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/config.php",
-		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/weChat/weChatId.php",
-		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/getopenid.php",
-		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/home.html",
-		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/home.php",
-		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/readme.txt",
-		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/js/motion/overlay.min.js",
-		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/index.html",
-		"/C/home/dev/code/projects/skullcandy/skullcandy-html5-camera/source/html5-camera/page/i.html",
-		"/C/home/dev/code/projects/atomicskate/case1.html",
-		"/C/home/dev/code/projects/atomicskate/home.html",
-		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/app.css",
-		"/C/Program Files/xampp/htdocs/Storybusi/storybusi.sublime-project",
-		"/C/program files/xampp/htdocs/wechat/3wechat.sublime-project"
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/showtime/showtime.sublime-project",
+		"/Applications/XAMPP/xamppfiles/htdocs/geoxnewyear16-h5app/css/share.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/geoxnewyear16-h5app/css/app.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/geoxnewyear16-h5app/js/app.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/geoxnewyear16-h5app/share.php",
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/showtime/bower.json",
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/showtime/README.md",
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/CRAZYBEA/crazybea-desktop/css/home.css",
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/CRAZYBEA/crazybea-desktop/script/lib/air-datepicker/css/datepicker.css",
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/CRAZYBEA/crazybea-desktop/script/mod/campaign/overall-engagement-by-area/main.js",
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/CRAZYBEA/crazybea-desktop/script/mod/accountadmin-list/main.js",
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/CRAZYBEA/crazybea-desktop/style/app/main.css",
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/CRAZYBEA/crazybea-desktop/script/lib/app/main.js",
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/CRAZYBEA/crazybea-desktop/script/lib/yom/require-lite.js",
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/CRAZYBEA/crazybea-desktop/script/lib/air-datepicker/js/datepicker.min.js",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151221 madness/sourcecode from dayang/madness/README.md",
+		"/Users/createc/Documents/dev/projects/CREATEC/20160113 GEOX新年h5/需求/分享文案.txt",
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/CRAZYBEA/crazybea-desktop/script/lib/riot/main.js",
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/CRAZYBEA/crazybea-desktop/html/login2.html",
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/CRAZYBEA/crazybea-desktop/www/script/lib/riot/main.js",
+		"/Users/createc/Documents/dev/projects/CREATEC-Solutions/CRAZYBEA/crazy-bee-mobile/script/lib/yom/require-lite.js",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151224 24hours/24hours-h5app/index.html",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151224 24hours/24hours-h5app/js/audioplayer/audioplayer.html",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151224 24hours/24hours-h5app/js/audioplayer/audioplayer.css",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151224 24hours/24hours-h5app/js/audioplayer/audioplayer.js",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151224 24hours/24hours-h5app/weChat/weChatShareJS.php",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151224 24hours/24hours-h5app/js/app.js",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151224 24hours/24hours-h5app/db/24hours.sql",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151224 24hours/24hours-h5app/db/adduser.php",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151224 24hours/24hours-h5app/db/connect.php",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151205 luolai/luolai-h5-20151205/css/app.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/luolai-h5-20151205/weChat/config.php",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151217 shaketowin/shaketowindemo-h5-app/readme.txt",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151217 shaketowin/shaketowindemo-h5-app/vitagreen_index.html",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151217 shaketowin/shaketowindemo-h5-app/geox_index.html",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151217 shaketowin/shaketowindemo-h5-app/css/app.css",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151217 shaketowin/shaketowin_demo/js/app.js",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151205 luolai/luolai-h5-20151205coupon1/js/player2.js",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151205 luolai/luolai-h5-20151205coupon1/js/app.js",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151205 luolai/luolai-h5-20151205coupon/js/player2.js",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151205 luolai/luolai-h5-20151205coupon/js/app.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/luolai-h5-20151205/db/getcurrentplayerrank.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/luolai-h5-20151205/weChat/weChatShareJS.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/luolai-h5-20151205coupon/player2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/luolai-h5-20151205coupon/index.php",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151205 luolai/luolai-h5-20151205-c/readme.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-appforappkol/app.appcache",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-appforappkol/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-appforappkol/js/app.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/css/app.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/js/zepto/zepto.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-appforappkol/readme.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-appforappkol/weChat/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/js/app.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/homepage.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/weChat/weChatShareJS.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/weChat/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/untitled",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/app.appcache",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/appcache/app.appcache",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/cache/app.appcache",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/weChat/index.php",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151013 善林宝/PSD/shanlingbaoVOKjefPSD/封面.psd",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/readme.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/demo.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/db/shanelinbao.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/js/timer/timer.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/js/motion/overlay.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/db/addscore.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/test.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/db/getrank.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/weChat/weChatId.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/db/getcurrentuserrank.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/shanlingbao-h5-app.sublime-project",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/db/isregister.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/db/adduser.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/weChat/getopenid.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/tracking/tracking.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/db/connect.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/tracking/tracking.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/db/getscorebyphone.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/register.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/db/register.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/shanlinbao-h5-app/sendsmscode.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/html5_page_tracking/tracking/tracking.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/html5_page_tracking/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/html5_page_tracking/tracking/tracking.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/html5_page_tracking/db/connect_tracking.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/html5_page_tracking/tracking/showtracking.php",
+		"/Users/createc/Documents/dev/git/WeChat-JSSDK-ShareInterface/weChat/weChatShareJS.php",
+		"/Users/createc/Documents/dev/git/html5-app-template/home.html",
+		"/Users/createc/Documents/dev/git/html5-app-template/js/utils/util.js",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151109 Steelcase CoreNet Shanghai Expo/steelcase_corenet_shagnhai_expo/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/steelcase_corenet_shagnhai_expo/css/app.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/steelcase_corenet_shagnhai_expo/data.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/steelcase_corenet_shagnhai_expo/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/steelcase_corenet_shagnhai_expo/weChat/weChatShareJS.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/steelcase_corenet_shagnhai_expo/js/motion/overlay.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/steelcase_corenet_shagnhai_expo/weChat/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/steelcase_corenet_shagnhai_expo/tracking/tracking.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/steelcase_corenet_shagnhai_expo/db/steelcase.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/steelcase_corenet_shagnhai_expo/tracking/tracking.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/steelcase_corenet_shagnhai_expo/tracking/db/tracking.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/steelcase_corenet_shagnhai_expo/tracking/tracking.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/steelcase_corenet_shagnhai_expo/steelcase_corenet_shanghai_expo.sublime-project",
+		"/Applications/XAMPP/xamppfiles/htdocs/steelcase_corenet_shagnhai_expo/tracking/db/connect.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/steelcase_corenet_shagnhai_expo/db/connect.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/steelcase_corenet_shagnhai_expo/tracking/db/steelcase.sql",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151109 Steelcase CoreNet Shanghai Expo/steelcase_corenet_shagnhai_expo/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/eggtour620/js/wLoader.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/eggtour620/css/stylesheets/screen.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/eggtour620/js/common.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/eggtour620/game1.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/eggtour620/data/db/conn.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/eggtour620/readme.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/eggtour620/css/stylesheets/m-screen.css",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151020 壹基金二次开发/one-foundation/readme1.txt",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151020 壹基金二次开发/one-foundation/readme.txt",
+		"/Users/createc/Documents/dev/projects/CREATEC/20151008 storybusi/Storybusi/db/conn.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/one-foundation/db/connect.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/one-foundation/db/getprize.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/one-foundation/includes/doc-begin.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/one-foundation/js/utils/preloader.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/one-foundation/js/pages/index.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/one-foundation/js/sections/prize.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/one-foundation/js/sections/thanks.js"
 	],
 	"find":
 	{
@@ -316,9 +587,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			"m"
 		]
 	},
 	"find_state":
@@ -326,134 +598,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"app.loading.init",
-			"app.debug.enable",
-			"app.shareoverload.bind_touch_event",
-			"app.audio.init",
-			"app.template.Landscape.init",
-			"app.template.swiper.init",
-			"app.template.loader.init",
-			"app.template.touch.init",
-			"sprites",
-			"get",
-			"BaseFiler",
-			"sprites",
-			"Goomba",
-			"resetBackground",
-			"Mushroom",
-			"Goomba",
-			"FireFlower",
-			"Goomba",
-			"p4/p4-1/p4-1-3/",
-			"p4/p4-1/p4-1-1/",
-			"p7/p7-1/",
-			"p10/e-2",
-			"p3/p3-1/",
-			"img/p9/bg.png",
-			"mp.weixin.qq",
-			"html5-app-template",
-			"24hours",
-			"firework",
-			"show_gameroles",
-			"confirrm",
-			"app.p6",
-			"m-1",
-			"p6/m-1",
-			"confirm",
-			"confrim",
-			"app.p6.start_shaketimer",
-			"timer_do",
-			"game_win",
-			"getrank",
-			"app.p6.shaketimercountdown",
-			"updatescorebyplayer2",
-			"app.p6.updateplayer2shaketime",
-			"updatescoreby",
-			"timer_done",
-			"app.p6.shaketimercountdown",
-			"app.p6.stop_shaketimer",
-			"game_win",
-			"app.p6.updateplayer2shaketime",
-			"app.p6.updateplayer1shaketime",
-			"TimerJS.timer_obj.countdown_timer_obj",
-			"game_win",
-			"timer_done",
-			"app.p6.updateplayer1shaketime",
-			"game_win",
-			"updatescore_",
-			"game_win",
-			"timer_done",
-			"game_win",
-			"app.p6.updateplayertonotread",
-			"app.p4",
-			"app.p4.init",
-			"timer_done",
-			"app.p6.updateplayertonotread",
-			"app.p6",
-			"getrank",
-			"game_win",
-			"app.p7",
-			"timer_done",
-			"game_win",
-			"app.p7",
-			"app.p6.de",
-			"app.tools.gotourl",
-			"app.p7",
-			"luolai151205coupon",
-			"luolai151205",
-			"app.p7",
-			"app.p6.de",
-			"app.p7",
-			"updateplayer2shaketime",
-			"app.p7",
-			"timer_don",
-			"game_win",
-			"game_wiin",
-			"app.p7.",
-			"app.p6.des",
-			"app.p6.updateplayer2",
-			"app.p6.updateplayertonotready",
-			"app.p6.dest",
-			"app.p6.updateplayer1toready",
-			"app.p6.updateplayer2toready",
-			"fast",
-			"slow",
-			"app.audio",
-			"slow",
-			"slowrun",
-			"fail",
-			"app.tools.au",
-			"game_win",
-			"gamewin",
-			"win",
-			"removelistener_updatescore",
-			"updateplayer1tore",
-			"updateplayer2tore",
-			"updateplayer1tore",
-			"updateplayer2shaketime",
-			"app.p6.updateplayer2toread_isset",
-			"app.p6.updateplayer1toread_isset",
-			"app.p6.destory",
-			"app.p7.destory",
-			"p6.updateplayer1tore",
-			"p6.updateplayer2tore",
-			"p6.updateplayer1tore",
-			"p6.de",
-			"updateplayer2tore",
-			"updateplayer",
-			"updateplayer2toready",
-			"updateplayer1toready",
-			"app.p7.destory",
-			"p6.des",
-			"updateplayer1toready",
-			"p6.de",
-			".countdown",
-			"app.p6.destory",
-			"app.p7.destory",
-			"#shaketime",
-			"alert",
-			"app.audio.play_slowrun",
-			"removebind_shakelistener"
+			"app.template.swiper.lock",
+			"app.template.swiper.touch",
+			"app.template.swiper.lock",
+			"app.template.swiper.mySwiper.lockSwipes",
+			"app.template.swiper.mySwiper",
+			"app.template.swiper.mySwiper.",
+			"scripts",
+			"libsass",
+			"config",
+			"useminPrepare",
+			"useminPrepare:html",
+			"sass",
+			"serve",
+			"Tasks",
+			"loadNpmTasks",
+			"connect",
+			"big",
+			"icon: \"http://www.createcdigital.com/geox-newyear-h5app\"",
+			"http://www.createcdigital.com/GEOX",
+			"uglify",
+			"hover",
+			".datepicker--cell.-range-from-",
+			"click",
+			"datepicker",
+			"dialog",
+			"digi",
+			"showHelp",
+			"{ i",
+			"toggle",
+			"switchType",
+			"update",
+			"bind",
+			"sb-mod__body",
+			".sb-mod__body",
+			".float-alert",
+			"navBar",
+			"\"module\"",
+			"module",
+			"exports",
+			"switchType",
+			"update",
+			"toggleItem",
+			"nextType",
+			"types",
+			"nextType",
+			"event",
+			"m",
+			"route",
+			"ROUTE",
+			"icon icon-menu",
+			"define",
+			"category",
+			"prevType",
+			"category",
+			"font",
+			"bee-cell type-1 small",
+			"chart-2",
+			"chart-0",
+			"float: left; width:30%; padding: 5% 1%;",
+			"float: left; width:30%;",
+			"width:100%; padding: 5% 15%;",
+			"160",
+			"show-no",
+			"event",
+			"show-no",
+			"chart",
+			".chart",
+			".chat",
+			"<div class=\"chart\">",
+			"float",
+			"chart-",
+			"chart0",
+			"chat0",
+			"height",
+			"-chat",
+			"chat",
+			"t",
+			"overall-engagement-by-area-chart-1",
+			"-char",
+			"bee-cell small",
+			"total-amount-of-shake-by-area-chart",
+			".category",
+			"<span class=\"icon icon-eye\" onclick=\"{showLoginHistory}\"></span> <a class=\"icon icon-back\" href=\"/view/campaign/-/1\"></a> <span class=\"icon icon-menu\" onclick=\"{toggleAppMenu}\"></span> ",
+			"interest-percentagebyarea",
+			".interest-percentagebyarea",
+			".interest-percentagebyarea-title",
+			".interest-percentagebyarea-category",
+			".category",
+			"category",
+			"interest-percentagebyarea",
+			"font-size: 11px",
+			"500",
+			"overflow: hidden",
+			"width:",
+			"1354",
+			"800",
+			"540px",
+			"click",
+			"toggle",
+			"campaign-menu__sub",
+			".campaign-menu-sub-a",
+			"campaign-menu-sub-a",
+			"toggle",
+			"campaign-menu__sub",
+			"closest",
+			"toggle",
+			"data-toggle",
+			"route",
+			"route.create",
+			"page-wrapper",
+			"defaultModName",
+			"page-wrapper",
+			"sb-mod__body",
+			"login-tag",
+			"campaign-list-tag",
+			"showHelp",
+			"core",
+			"init",
+			"fadeIn",
+			"jquery",
+			"init =",
+			"init :",
+			"adduser",
+			"adata",
+			"<img src=\"img/transparent\" alt=\"\" class=\"d",
+			"curtime",
+			"audioplayer",
+			"luolai151205"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -461,50 +733,54 @@
 		"regex": false,
 		"replace_history":
 		[
-			"p4/p4-1/p4-1-4/",
-			"p4/p4-1/p4-1-3/",
-			"p4/p4-1/p4-1-2/",
-			"p4/p4-1/p4-1-1/",
-			"p7/p7-1/",
-			"geoxnewyear16-h5app",
-			"firstdosomething",
-			"luolai151205cp",
-			"luolai151205coupon",
-			"app.p5",
-			"app.p3",
-			"font-size: 18px; color: #fff;",
-			"font-size: 24px; color: yellow;",
-			"font-size: 18px; color: #fff;",
-			"font-size: 20px; color: #fff;",
-			"font-size: 22px; color: #fff; width: 65px;",
-			"font-size: 24px; color: #fff;",
-			"fonfont-size: 24px; color: #fff;",
-			"font-size: 30px; color: yellow;",
-			"rank10",
-			"rank9",
-			"rank8",
-			"rank7",
-			"rank6",
-			"rank5",
-			"rank4",
-			"rank3",
-			"app.p6.shaketimer",
-			"window.location.href",
-			"http://www.createcdigital.com/eggtour620/images/share-icon.jpg",
-			"http://www.createcdigital.com/eggtour620/index.php",
-			"eggtour620",
-			"bg.png",
-			"p8",
-			"p7",
-			"p6",
-			"p5",
-			"p4",
-			"p3",
-			"p2",
-			"class=\"swiper-lazy ani",
-			" <img data-src=\"images/",
+			"//app.template.swiper.mySwiper.lockSwipes",
+			"icon: \"http://www.createcdigital.com/geox-newyear-h5app/\"",
+			"http://www.createcdigital.com/geox-newyear-h5app",
+			"float: left; width:30%; padding: 10% 1%;",
+			"float: left; width:30%; padding: 5% 1%;",
+			"float: left; width:30%;",
+			"<div class=\"chart\" style=\"float:left\">",
+			"bee-cell small small-vertical",
 			"",
-			"page-wrap"
+			"totalamountofshakebyarea",
+			"<img src=\"img/transparent.png\" alt=\"\" class=\"d",
+			"24hours",
+			"border: 0px solid red;",
+			"geox",
+			" border: 0px solid red;",
+			".vitagreen",
+			"images/vitagreen/",
+			".vitagreen",
+			"border: 0px solid yellow;",
+			"640",
+			"app.p4.show_errorhit",
+			"",
+			"app",
+			"app.tools.geturlparam",
+			"data-src=\"im",
+			"",
+			"app.template.swiper.mySwiper",
+			"$ ",
+			"tracking.share",
+			"tracking",
+			"`",
+			"mysqli_fetch_object",
+			"mysqli_query($conn, ",
+			"prize_coffeecoupon",
+			"prize_saladcoupon",
+			"prize_buy200get100",
+			"prize_juicecoupon",
+			"prize_wrampack",
+			"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCIgd2lkdGg9IjI3IiBoZWlnaHQ9IjQ2IiB2aWV3Qm94PSIwIDAgMjcgNDYiPgogIDxpbWFnZSB4bGluazpocmVmPSJkYXRhOmltZy9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFCc0FBQUF1Q0FNQUFBRHV2Wko1QUFBQUJHZEJUVUVBQUxHUEMveGhCUUFBQUNCalNGSk5BQUI2SmdBQWdJUUFBUG9BQUFDQTZBQUFkVEFBQU9wZ0FBQTZtQUFBRjNDY3VsRThBQUFCbTFCTVZFVUFBQUQ5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzBBQUFCMnZpdnFBQUFBaDNSU1RsTUFFbHRKQkFFUml2blpJeCtWK1BScUF4eWI3MlFwcmYzb1VpcXU0Z0kyd05vOUJjSFNORVhSeFN0UTFMMEtWdCt2R2dkbDVhZ1U2NVlMZC9LU0RSaUQ4L3Q5OXlIMUhaM3VYaXl3VHpDeTRFUTQxanRDeE04eEdTTE03VmRteUhhNmhBYXEvSk1JbktLTi9uOFBiMkg2VTBNL0orbjJUZDFkRm1zUXczdTBpYWVaQ1ppNURpN21nczVKQUFBQUFXSkxSMFFBaUFVZFNBQUFBQWx3U0ZsekFBQUxFZ0FBQ3hJQjB0MSsvQUFBQVZSSlJFRlVPTXQxMG5jN2dtRVVCdkNYM3FaUnlnZ2xsY29LdllnaWV0QWdHZGw3dmJKbDc3M3VyKzBMblBQOCs3dnVjNTNudm80azBhK29XQ1BUb3RYcERVWVRUU1dsWmVWbWtpd1ZWdGdxeVpIYXF1b2FleTJaa3V2cTRkQTRLWEkydU5Eb0psTWV0eGROUGkxSi9nQ2FXK2hVYXh2YTZYOEZPenJSRlNKSjZlNUJiNWp1eWR5SC9nZzlNRHFBd1JoSlE4TnhNVUszRzlhTDBhaEMwcGhWSkNySmxDV1pRbnFjTE40NWtZRjlrazVscHpBOVF4WXZ6M3FSbXlOVDB2d0NGcGRvV2w1QVlJVW1LYktLTlQ5amtza0J3enFIeXptSURTZUR1azJJTGVhS3BkZzJ4TTR1dDlCZWpicXZNSmcvVU5YRElJUEtrVGpPUkJqY1BSRnduVElvbndtc2hoblVuaGRnRERFb1hSalFZK0x3TW9GMGxrT2ZEZkVyRHE5dmNIdkhZZkllaFFjT0h3TVFUeFlHbjE4Z1hqME14dDRnM3JubWd4K3ErUHhpTVArdHFpa3VxYnpiZm42NWJXWC9YLzRmK1lSRjNodE8waFFBQUFBQVNVVk9SSzVDWUlJPSIgd2lkdGg9IjI3IiBoZWlnaHQ9IjQ2Ii8+Cjwvc3ZnPgo=",
+			"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCIgd2lkdGg9IjI3IiBoZWlnaHQ9IjQ3IiB2aWV3Qm94PSIwIDAgMjcgNDciPgogIDxpbWFnZSB4bGluazpocmVmPSJkYXRhOmltZy9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFCc0FBQUF2Q0FNQUFBQWw0VUhjQUFBQUJHZEJUVUVBQUxHUEMveGhCUUFBQUNCalNGSk5BQUI2SmdBQWdJUUFBUG9BQUFDQTZBQUFkVEFBQU9wZ0FBQTZtQUFBRjNDY3VsRThBQUFCdVZCTVZFVUFBQUQ5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXcwQUFBQkw4TkZMQUFBQWtYUlNUbE1BR0JzUXVyVk1CaE9oL05KVUJBRXFuZE5nQ2lhVitPQmxDeDZMOXVKeUR4eC84T3QyRlJSOTdvUVdhK1QwaUNJTzNpRUhXZG42bkM0SldNMytwaTlLekxFNkJVaTh0ajQ5dzBjRE42ckdVakg3VnllYjEyU1M0V1lOaXZYbGRSRjU3WGZwOFlVYWFOK0cydGdTeFhRQzFXY2YrU3pzT2ZKRzkxYmpHY203cmFEOW5xK1F2NEJ4WWlSVFF2TTFTU25RYWlXN2xnQUFBQUZpUzBkRUFJZ0ZIVWdBQUFBSmNFaFpjd0FBQ3hJQUFBc1NBZExkZnZ3QUFBRmpTVVJCVkRqTGRkUnBPMEpSRUFmd215S2lpTHBJaWE1c1dhSzZ4QzFiOXZXaVJZcFM5cFFsMmJLVGZabHZ6QWVZT1c5L3o1bnpuUCtaT1F3anlXT29KWlhsRjhnSkt5eFNGSmNvY1ZPVmxpblU1UlhFVG8yV3JheXFKbEJYb3pmVUdnbXNxemR4RFdZQ0c1dTQ1cFpXNmlhV3R2YU9UZ0t0bGk1VzIwMmd6ZTdnZTNvSmRQYjFDeTYzaXRDQlFXRm9tTEFSenlpTWpSUDVNUk15bUp3aWJIcG1GdWJtYllRdXVFVDFJbFYyYVZuMCtxamtOWDU5WUNWSVlONXFLTHkyVG1Ha09ib2hJYkF3RW90dmJoRm8zTjdoZHFVRW12ZGduemd5Y1FCaU1vV1M1QkQ0STV5T0RYQml4d3VtVDBIdndTa1RoN01NVHVjWHdLVnh1anlCSzd5bFVqNGV2Rm1VbEVrUnJoTW95VnRFdUxHaVpQUHp3aTMrcXM2N2U4V0RFNlhxUjRGL3dydEkrZ3hpRHAvN3hrSGdYL0QyeWpxQWY4V0Rmd3NEKzQ3bjVJNUM2QU9uaVU4d2ZlSDB6VUxzQjZmRUx3UjBPREhCbkovNlBSaHFpUC9YSC9SelNOL2V0OGV1QUFBQUFFbEZUa1N1UW1DQyIgd2lkdGg9IjI3IiBoZWlnaHQ9IjQ3Ii8+Cjwvc3ZnPgo=",
+			"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCIgd2lkdGg9IjI3IiBoZWlnaHQ9IjQ2IiB2aWV3Qm94PSIwIDAgMjcgNDYiPgogIDxpbWFnZSB4bGluazpocmVmPSJkYXRhOmltZy9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFCc0FBQUF1Q0FNQUFBRHV2Wko1QUFBQUJHZEJUVUVBQUxHUEMveGhCUUFBQUNCalNGSk5BQUI2SmdBQWdJUUFBUG9BQUFDQTZBQUFkVEFBQU9wZ0FBQTZtQUFBRjNDY3VsRThBQUFCbTFCTVZFVUFBQUQ5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzM5YXczOWF3MzlhdzBBQUFCMnZpdnFBQUFBaDNSU1RsTUFFbHRKQkFFUml2blpJeCtWK1BScUF4eWI3MlFwcmYzb1VpcXU0Z0kyd05vOUJjSFNORVhSeFN0UTFMMEtWdCt2R2dkbDVhZ1U2NVlMZC9LU0RSaUQ4L3Q5OXlIMUhaM3VYaXl3VHpDeTRFUTQxanRDeE04eEdTTE03VmRteUhhNmhBYXEvSk1JbktLTi9uOFBiMkg2VTBNL0orbjJUZDFkRm1zUXczdTBpYWVaQ1ppNURpN21nczVKQUFBQUFXSkxSMFFBaUFVZFNBQUFBQWx3U0ZsekFBQUxFZ0FBQ3hJQjB0MSsvQUFBQVZSSlJFRlVPTXQxMG5jN2dtRVVCdkNYM3FaUnlnZ2xsY29LdllnaWV0QWdHZGw3dmJKbDc3M3VyKzBMblBQOCs3dnVjNTNudm80azBhK29XQ1BUb3RYcERVWVRUU1dsWmVWbWtpd1ZWdGdxeVpIYXF1b2FleTJaa3V2cTRkQTRLWEkydU5Eb0psTWV0eGROUGkxSi9nQ2FXK2hVYXh2YTZYOEZPenJSRlNKSjZlNUJiNWp1eWR5SC9nZzlNRHFBd1JoSlE4TnhNVUszRzlhTDBhaEMwcGhWSkNySmxDV1pRbnFjTE40NWtZRjlrazVscHpBOVF4WXZ6M3FSbXlOVDB2d0NGcGRvV2w1QVlJVW1LYktLTlQ5amtza0J3enFIeXptSURTZUR1azJJTGVhS3BkZzJ4TTR1dDlCZWpicXZNSmcvVU5YRElJUEtrVGpPUkJqY1BSRnduVElvbndtc2hoblVuaGRnRERFb1hSalFZK0x3TW9GMGxrT2ZEZkVyRHE5dmNIdkhZZkllaFFjT0h3TVFUeFlHbjE4Z1hqME14dDRnM3JubWd4K3ErUHhpTVArdHFpa3VxYnpiZm42NWJXWC9YLzRmK1lSRjNodE8waFFBQUFBQVNVVk9SSzVDWUlJPSIgd2lkdGg9IjI3IiBoZWlnaHQ9IjQ2Ii8+Cjwvc3ZnPgo=",
+			"en",
+			"set",
+			"$set",
+			"=",
+			"?",
+			"/",
+			"bbso-h5-app-demo"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -515,16 +791,165 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Program Files/xampp/htdocs/showtime/app/index.html",
+					"file": "app/styles/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3392,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1484,
+								1484
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4802,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1051,
+								1051
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 30.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/scripts/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								156,
+								156
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "showtime.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/upload.php",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 4779,
+						"buffer_size": 451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								446,
+								446
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -537,15 +962,104 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 90,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90,
+								90
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -566,18 +1080,32 @@
 			[
 				0,
 				0,
-				1,
+				2,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.7,
 			1.0
 		]
 	},
@@ -608,12 +1136,12 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -627,12 +1155,66 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"15":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"16":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"17":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"22":
+				{
+					"group": 0,
+					"index": 3
+				},
+				"23":
+				{
+					"group": 0,
+					"index": 4
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 246.0,
+	"side_bar_width": 207.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

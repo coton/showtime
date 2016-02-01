@@ -2,7 +2,13 @@
 	"folders":
 	[
 		{
-			"path": "C:\\Program Files\\xampp\\htdocs\\showtime"
+			"path": "."
 		}
-	]
+	],
+     "settings":
+     {
+          "xdebug": {
+            "url": "http://localhost:9000/upload.php"
+        }
+     }
 }

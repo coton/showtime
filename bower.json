@@ -4,7 +4,9 @@
   "dependencies": {
     "modernizr": "~2.8.3",
     "bootstrap": "~3.3.6",
-    "vide": "~0.5.0"
+    "vide": "~0.5.0",
+    "dropzone": "^4.2.0",
+    "qrcode.js": "git://github.com/davidshimjs/qrcodejs.git"
   },
   "devDependencies": {
     "chai": "~3.4.2",
