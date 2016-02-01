@@ -1,0 +1,600 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"al",
+				"vertical-align"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"b",
+				"bold"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"st",
+				"stop"
+			],
+			[
+				"get",
+				"geturlparam"
+			],
+			[
+				"s",
+				"show_layout"
+			],
+			[
+				"cl",
+				"clearInterval"
+			],
+			[
+				"sh",
+				"show_e3_animation"
+			],
+			[
+				"show",
+				"show_e2_animation"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"set",
+				"setInterval"
+			],
+			[
+				"pr",
+				"prev"
+			],
+			[
+				"d",
+				"data"
+			],
+			[
+				"bind",
+				"bind_gamestart_event"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"music",
+				"music_status"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"f",
+				"fixed"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"text",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"last_filter": "xdebug:st",
+		"selected_items":
+		[
+			[
+				"xdebug:st",
+				"Xdebug: Start Debugging (Launch Browser)"
+			],
+			[
+				"xde",
+				"Xdebug: Start Debugging (Launch Browser)"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"xdebug",
+				"Xdebug: Start Debugging (Launch Browser)"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Program Files/xampp/htdocs/showtime"
+	],
+	"file_history":
+	[
+		"/C/home/dev/code/git/showtime/showtime/app/favicon.ico",
+		"/C/Program Files/xampp/htdocs/geoxnewyear16-h5app/js/app.js",
+		"/C/Program Files/xampp/htdocs/geoxnewyear16-h5app/index.php",
+		"/C/Program Files/xampp/htdocs/geoxnewyear16-h5apptest/index.php",
+		"/C/Program Files/xampp/htdocs/geoxnewyear16-h5apptest/js/app.js",
+		"/C/Program Files/xampp/htdocs/geoxnewyear16-h5apptest/js/test.js",
+		"/C/home/dev/code/git/FullScreenMario/Source/settings/math.js",
+		"/C/home/dev/code/git/FullScreenMario/Source/settings/math.ts",
+		"/C/home/dev/code/git/FullScreenMario/Source/settings/mods.js",
+		"/C/home/dev/code/git/FullScreenMario/Source/settings/objects.js",
+		"/C/home/dev/code/git/FullScreenMario/task.txt",
+		"/C/home/dev/code/git/FullScreenMario/Source/settings/maps/1-1.js",
+		"/C/home/tmp/geoxnewyear16-h5app/geoxnewyear16-h5app/js/app.js",
+		"/C/Program Files/xampp/htdocs/geoxnewyear16-h5app/wechat/weChatShareJS.php",
+		"/C/Program Files/xampp/htdocs/geoxnewyear16-h5app/db/addsharelog.php",
+		"/C/Program Files/xampp/htdocs/geoxnewyear16-h5app/README.md",
+		"/C/Program Files/xampp/htdocs/sleep_h5app/index.php",
+		"/C/Program Files/xampp/htdocs/sleep_h5app/weChat/weChatShareJS.php",
+		"/C/Program Files/xampp/htdocs/sleep_h5app/weChat/WeChat-JSSDK-ShareInterface-master/weChat/weChatShareJS.php",
+		"/C/Program Files/xampp/htdocs/24hours-h5app/app.appcache",
+		"/C/Program Files/xampp/htdocs/24hours-h5app/js/app.js",
+		"/C/Program Files/xampp/htdocs/24hours-h5app/index.php",
+		"/C/Program Files/xampp/htdocs/24hours-h5app/js/fastclick/fastclick.js",
+		"/C/Program Files/xampp/htdocs/24hours-h5app/js/audioplayer/audioplayer.css",
+		"/C/Program Files/xampp/htdocs/24hours-h5app/css/app.css",
+		"/C/Program Files/xampp/htdocs/24hours-h5app/weChat/weChatShareJS.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/css/app.css",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/js/app.js",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/player2.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/index.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon1/index.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon1/db/getcurrentplayerrank.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon1/player2.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon1/weChat/config.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon1/weChat/weChatShareJS.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon1/js/app.js",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon1/js/player2.js",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/weChat/weChatShareJS.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/weChat/weChatId.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/weChat/config.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/js/player2.js",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/js/timer/timer.min.js",
+		"/C/home/dev/code/git/shanlinbao-h5-app/weChat/config.php",
+		"/C/home/dev/code/git/shanlinbao-h5-app/weChat/weChatShareJS.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/luolai-h5-20151205.sublime-project",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon/js/player2.js",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon/js/app.js",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon/css/app.css",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon/readme.txt",
+		"/C/home/dev/code/git/html5-app-template/css/app.css",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon/db/connect.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon/index.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon/player2.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon/db/luolai151205coupon.sql",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205coupon/weChat/config.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/js/zepto/zepto.min.js",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/readme.txt",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/updateplayer1toready.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/updateplayer2toready.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/luolai151205.sql",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/getplayer1info.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/getplayer2info.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/updatescorebyplayer2.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/updatescorebyplayer1.php",
+		"/C/home/dev/code/git/shanlinbao-h5-app/js/app.js",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/getcurrentplayerrank.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/getplayer2info - Copy.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/updateplayer1.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/updateplayer2.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/addplayer2.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/addplayer1.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/connect.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/getrank.php",
+		"/C/home/dev/code/git/shanlinbao-h5-app/css/app.css",
+		"/C/home/tmp/html5shake/index.html",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/index.html",
+		"/C/home/dev/code/git/WeChat-JSSDK-ShareInterface/weChat/weChatShareJS.php",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/player2.html",
+		"/C/Program Files/xampp/htdocs/luolai-h5-20151205/db/getcurrentuserrank.php",
+		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/db/addplayer1.php",
+		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/index.html",
+		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/player2.html",
+		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/js/app.js",
+		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/db/luolai151205.sql",
+		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/css/app.css",
+		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/js/player2.js",
+		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/db/addplayer2.php",
+		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/weChat/config.php",
+		"/C/home/dev/code/projects/CREATEC/20151206 luolai/luolai-h5-20151205/app.appcache",
+		"/C/home/tmp/taobao-201501/taobao-201501/buy.html",
+		"/C/home/tmp/taobao-201501/taobao-201501/buy-success.html",
+		"/C/home/tmp/taobao-201501/taobao-201501/share.html",
+		"/C/home/tmp/taobao-201501/taobao-201501/index.html",
+		"/C/Program Files/xampp/htdocs/eggtour620/data/db/conn.php",
+		"/C/Program Files/xampp/htdocs/eggtour620/js/common.js",
+		"/C/Program Files/xampp/htdocs/eggtour620/index.php",
+		"/C/Program Files/xampp/htdocs/eggtour620/function.php",
+		"/C/home/dev/code/projects/skullcandy/20151105 skullcandy-taobao1111-part2/skullcandy15111p2/css/app.css",
+		"/C/home/dev/code/projects/skullcandy/20151105 skullcandy-taobao1111-part2/skullcandy15111p2/weChat/config.php",
+		"/C/home/dev/code/projects/skullcandy/20151105 skullcandy-taobao1111-part2/skullcandy15111p2/index.php",
+		"/C/home/dev/code/projects/skullcandy/20151105 skullcandy-taobao1111-part2/skullcandy15111p2/home.html",
+		"/C/Program Files/xampp/htdocs/skullcandy-taobao151111/css/app.css",
+		"/C/Program Files/xampp/htdocs/skullcandy-taobao151111/weChat/jssdk.php",
+		"/C/Program Files/xampp/htdocs/skullcandy-taobao151111/weChat/weChatShareJS.php",
+		"/C/home/dev/code/projects/skullcandy/20151019 skullcandy-taobao1111/skullcandy-taobao151111/weChat/config.php",
+		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/game.php",
+		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/index.php",
+		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/css/app.css",
+		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/game.html",
+		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/config.php",
+		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/weChat/weChatId.php",
+		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/getopenid.php",
+		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/home.html",
+		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/home.php",
+		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/readme.txt",
+		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/js/motion/overlay.min.js",
+		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/index.html",
+		"/C/home/dev/code/projects/skullcandy/skullcandy-html5-camera/source/html5-camera/page/i.html",
+		"/C/home/dev/code/projects/atomicskate/case1.html",
+		"/C/home/dev/code/projects/atomicskate/home.html",
+		"/C/home/dev/code/projects/CREATEC/bbso20151008/bbso-h5-app/app.css",
+		"/C/Program Files/xampp/htdocs/Storybusi/storybusi.sublime-project",
+		"/C/program files/xampp/htdocs/wechat/3wechat.sublime-project"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"app.loading.init",
+			"app.debug.enable",
+			"app.shareoverload.bind_touch_event",
+			"app.audio.init",
+			"app.template.Landscape.init",
+			"app.template.swiper.init",
+			"app.template.loader.init",
+			"app.template.touch.init",
+			"sprites",
+			"get",
+			"BaseFiler",
+			"sprites",
+			"Goomba",
+			"resetBackground",
+			"Mushroom",
+			"Goomba",
+			"FireFlower",
+			"Goomba",
+			"p4/p4-1/p4-1-3/",
+			"p4/p4-1/p4-1-1/",
+			"p7/p7-1/",
+			"p10/e-2",
+			"p3/p3-1/",
+			"img/p9/bg.png",
+			"mp.weixin.qq",
+			"html5-app-template",
+			"24hours",
+			"firework",
+			"show_gameroles",
+			"confirrm",
+			"app.p6",
+			"m-1",
+			"p6/m-1",
+			"confirm",
+			"confrim",
+			"app.p6.start_shaketimer",
+			"timer_do",
+			"game_win",
+			"getrank",
+			"app.p6.shaketimercountdown",
+			"updatescorebyplayer2",
+			"app.p6.updateplayer2shaketime",
+			"updatescoreby",
+			"timer_done",
+			"app.p6.shaketimercountdown",
+			"app.p6.stop_shaketimer",
+			"game_win",
+			"app.p6.updateplayer2shaketime",
+			"app.p6.updateplayer1shaketime",
+			"TimerJS.timer_obj.countdown_timer_obj",
+			"game_win",
+			"timer_done",
+			"app.p6.updateplayer1shaketime",
+			"game_win",
+			"updatescore_",
+			"game_win",
+			"timer_done",
+			"game_win",
+			"app.p6.updateplayertonotread",
+			"app.p4",
+			"app.p4.init",
+			"timer_done",
+			"app.p6.updateplayertonotread",
+			"app.p6",
+			"getrank",
+			"game_win",
+			"app.p7",
+			"timer_done",
+			"game_win",
+			"app.p7",
+			"app.p6.de",
+			"app.tools.gotourl",
+			"app.p7",
+			"luolai151205coupon",
+			"luolai151205",
+			"app.p7",
+			"app.p6.de",
+			"app.p7",
+			"updateplayer2shaketime",
+			"app.p7",
+			"timer_don",
+			"game_win",
+			"game_wiin",
+			"app.p7.",
+			"app.p6.des",
+			"app.p6.updateplayer2",
+			"app.p6.updateplayertonotready",
+			"app.p6.dest",
+			"app.p6.updateplayer1toready",
+			"app.p6.updateplayer2toready",
+			"fast",
+			"slow",
+			"app.audio",
+			"slow",
+			"slowrun",
+			"fail",
+			"app.tools.au",
+			"game_win",
+			"gamewin",
+			"win",
+			"removelistener_updatescore",
+			"updateplayer1tore",
+			"updateplayer2tore",
+			"updateplayer1tore",
+			"updateplayer2shaketime",
+			"app.p6.updateplayer2toread_isset",
+			"app.p6.updateplayer1toread_isset",
+			"app.p6.destory",
+			"app.p7.destory",
+			"p6.updateplayer1tore",
+			"p6.updateplayer2tore",
+			"p6.updateplayer1tore",
+			"p6.de",
+			"updateplayer2tore",
+			"updateplayer",
+			"updateplayer2toready",
+			"updateplayer1toready",
+			"app.p7.destory",
+			"p6.des",
+			"updateplayer1toready",
+			"p6.de",
+			".countdown",
+			"app.p6.destory",
+			"app.p7.destory",
+			"#shaketime",
+			"alert",
+			"app.audio.play_slowrun",
+			"removebind_shakelistener"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"p4/p4-1/p4-1-4/",
+			"p4/p4-1/p4-1-3/",
+			"p4/p4-1/p4-1-2/",
+			"p4/p4-1/p4-1-1/",
+			"p7/p7-1/",
+			"geoxnewyear16-h5app",
+			"firstdosomething",
+			"luolai151205cp",
+			"luolai151205coupon",
+			"app.p5",
+			"app.p3",
+			"font-size: 18px; color: #fff;",
+			"font-size: 24px; color: yellow;",
+			"font-size: 18px; color: #fff;",
+			"font-size: 20px; color: #fff;",
+			"font-size: 22px; color: #fff; width: 65px;",
+			"font-size: 24px; color: #fff;",
+			"fonfont-size: 24px; color: #fff;",
+			"font-size: 30px; color: yellow;",
+			"rank10",
+			"rank9",
+			"rank8",
+			"rank7",
+			"rank6",
+			"rank5",
+			"rank4",
+			"rank3",
+			"app.p6.shaketimer",
+			"window.location.href",
+			"http://www.createcdigital.com/eggtour620/images/share-icon.jpg",
+			"http://www.createcdigital.com/eggtour620/index.php",
+			"eggtour620",
+			"bg.png",
+			"p8",
+			"p7",
+			"p6",
+			"p5",
+			"p4",
+			"p3",
+			"p2",
+			"class=\"swiper-lazy ani",
+			" <img data-src=\"images/",
+			"",
+			"page-wrap"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "showtime.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
