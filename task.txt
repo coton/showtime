@@ -1,15 +1,14 @@
------ UI
-1. apple-touch-icon.png和favicon.ico图片
+待完成部分：
+1. 首页视频编辑。
+2. 页面内容中英文翻译部分。
+
+
+设计部分:
+1. apple-touch-icon.png和favicon.ico 小图需要重新设计，因为如果直接沿用showtime logo会因为太大而看不清楚。
 2. 
 
 
-
------ dev
-图片使用base64
-压缩
-细节
-
-
-project:
-1. 首页视频
-2. 微信公众账号
+开发部分：
+1. 图片资源使用base64 DATA URI代替。
+2. 使用grunt框架完成css sprites自动合并功能。
+3. 页脚公众号二维码更换

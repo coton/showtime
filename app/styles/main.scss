@@ -1,0 +1,98 @@
+/* WebFont */
+// @font-face {
+//   font-family: 'avenirnext';
+//   src: url('../fonts/avenirnext.eot');
+//   src:
+//     url('../fonts/avenirnext.eot?#font-spider') format('embedded-opentype'),
+//     url('../fonts/avenirnext.woff') format('woff'),
+//     url('../fonts/avenirnext.ttf') format('truetype'),
+//     url('../fonts/avenirnext.svg') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+@font-face {
+  font-family: 'helveticaneuelight';
+  src: url('../fonts/helveticaneue.eot');
+  src:
+    url('../fonts/helveticaneue.eot?#font-spider') format('embedded-opentype'),
+    url('../fonts/helveticaneue.woff') format('woff'),
+    url('../fonts/helveticaneue.ttf') format('truetype'),
+    url('../fonts/helveticaneue.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'khmermn';
+  src: url('../fonts/khmermn.eot');
+  src:
+    url('../fonts/khmermn.eot?#font-spider') format('embedded-opentype'),
+    url('../fonts/khmermn.woff') format('woff'),
+    url('../fonts/khmermn.ttf') format('truetype'),
+    url('../fonts/khmermn.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body{background:#fafafa;font-family:Helvetica,Tahoma,Arial,sans-serif;color:#333;position:absolute;margin:0;padding:0;width:100%}
+
+
+/*-- index.html
+====================================================== */
+.container{width:100%;margin:0;padding:0; overflow: hidden; min-width:1200px;}
+.logo{position:absolute;top:20px;left:50px;width:150px}
+
+
+/* useage */
+.useage-wrap{width:100%;height:245px;background-color:#efefef;text-align:center}
+.useage-wrap .useage{width:100%;margin:0 auto}
+.useage-wrap .useage div{float:left;width:31%;padding:50px 0;margin:0 10px}
+.useage-wrap .useage img{max-width:100%}
+
+
+/* uploadandpreview */
+.uploadandpreview-wrap{width:100%;background-color:#d7d7d7; text-align: center; overflow: hidden;}
+.uploadandpreview-wrap .upload{width:60%; height: 250px; margin: 50px auto; background-color: #e1e1e1; border:2px solid #fff;}
+.uploadandpreview-wrap .upload .icon{margin: 20px auto 10px;}
+.uploadandpreview-wrap .upload .info{margin: 10px auto; font-size: 28px; color: #7d7d7d; font-weight: 100; }
+
+.uploadandpreview-wrap .review{width:55%; height: 620px; margin: 60px auto;}
+.uploadandpreview-wrap .review .l{width:320px; height: 620px; float: left; background-image: url('../images/iphone.png'); background-repeat: no-repeat; background-size: cover;}
+.uploadandpreview-wrap .review .r{width:320px; height: 620px; float: right; text-align: center;}
+
+.uploadandpreview-wrap .review .l .screen{width:229px;height:500px;margin:105px auto;overflow:scroll; padding-left: 4px; }
+.uploadandpreview-wrap .review .l .screen img{max-width: 100%; }
+.uploadandpreview-wrap .review .r .pt1{width:320px; height: 210px; margin-top: 50px;}
+.uploadandpreview-wrap .review .r .pt1 .qr{width:200px; height: 200px; float: left; margin: 0px 30px 0px 30px;}
+.uploadandpreview-wrap .review .r .pt1 .qr img{width:200px; height: 200px;}
+.uploadandpreview-wrap .review .r .pt1 .download{width:60px; height: 60px; margin-top: 40px;}
+.uploadandpreview-wrap .review .r .pt1 .print{width:60px; height: 60px; margin-top: 20px; cursor: pointer;}
+.uploadandpreview-wrap .review .r .pt2{width:280px; height: auto; margin: 20px auto; padding-right: 40px;}
+.uploadandpreview-wrap .review .r .pt3{width:280px; height: auto; margin: 40px auto; padding-right: 40px;}
+.uploadandpreview-wrap .review .r p{font-size: 20px; color: #898989; font-weight: 100; margin:0px 0px 5px 0px;}
+.uploadandpreview-wrap .review .r span{color:#ebebeb; margin-right:5px;}
+.uploadandpreview-wrap .review .r .sencond{margin:10px 0px 0px 0px;}
+
+/* footer */
+.footer-wrap{width:100%; height:140px; background-color:#4c4c4c; text-align: center; overflow: hidden;}
+.footer-wrap .f1{position: relative; top: -100px; width: 120px; padding: 25px;}
+.footer-wrap .f1 img{width:120px;}
+
+.footer-wrap .f2{position: relative; top: -220px; left: 155px; width:150px;height:65px;border-left:1px solid #959595;float:left;margin-top:25px;text-align:left;}
+.footer-wrap .f2 p{ color: #959595; margin:2px 10px; position: relative; top:20px; font-weight:100;}
+
+.footer-wrap .f3{width:615px; overflow: hidden;  text-align: center; margin: 0px auto;}
+.footer-wrap .f3 .coffee{color: #555555; font-family: 'khmermn'; font-size: 95px; letter-spacing:2px; height:100px;}
+.footer-wrap .f3 .coffee span{font-size: 65px;}
+.footer-wrap .copyright{color: #959595; text-align: center; font-size: 12px; font-weight:100; position: relative; top: 20px;}
+.footer-wrap .copyright span{margin-left:20px;}
+
+.footer-wrap .f4{position: relative; top: -220px; float: right; width:200px; padding: 25px; overflow: hidden;  text-align: center;}
+.footer-wrap .f4 img{width:200px;}
+
+
+/* upload */
+.dz-default, .dz-preview{display: none;}
+

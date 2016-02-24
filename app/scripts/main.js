@@ -3,15 +3,14 @@
 var app = app || {};
 app.init = function(){
   this.bind_upload_event();
+  this.print_qrcode();
 };  
 
 app.bind_upload_event = function(){
   $('#container').dropzone({
     url: 'upload.php',
-    maxFiles: 1,
     maxFilesize: 512,
     acceptedFiles: '.jpg,.png,.gif',
-        // uploadMultiple: true,
     init: function() {
       this.on('success', function(file) {
 
@@ -39,6 +38,12 @@ app.generate_qrcode = function(url){
     $('#download').attr('href', $('#qrcode img').attr('src'));
   }, 1000);
     
+};
+
+app.print_qrcode = function(){
+  $('#print').click(function(){
+    $('#qrcode').printArea();
+  });
 };
 
 

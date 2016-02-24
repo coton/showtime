@@ -1,8 +1,8 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="zh">
   <head>
     <meta charset="utf-8">
-    <title>showtime</title>
+    <title>SHOWTIME秀台</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/bower_components/dropzone/dist/min/dropzone.min.css" />
     <!-- endbower -->
     <!-- endbuild -->
+    
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
@@ -59,20 +60,21 @@
           <div class="r">
             <div class="pt1">
               <div class="qr" id="qrcode"><img src="images/qr.png" alt=""></div>
-              <a id="download" href="" download="QRCODE" title="ImageName">
+              <a id="download" href="images/qr.png" download="QRCODE" title="下载二维码(Download QR Code)">
                 <img class="download" src="images/download.png" alt="">
               </a>
-              <img class="print" src="images/print.png" alt="">
+
+              <img id="print" class="print" src="images/print.png" title="打印二维码(Print QR Code)">
             </div>
             <div class="pt2">
-              <p>①您可以扫描此二维码</p>
+              <p><span>①</span>您可以扫描此二维码</p>
               <p>通过手机来欣赏您的作品集。 </p>
               <p class="sencond">Scan the above QR and </p>
               <p>view your work in mobile.</p>
             </div>
             <div class="pt3">
-              <p>②您可以将此二维码打印</p>
-              <p>并放置在展会入口或海报内。 </p>
+              <p><span>②</span>您可以将此二维码打</p>
+              <p>印并放置在展会入口或海报内。 </p>
               <p class="sencond">Print out the QR code and </p>
               <p>place it in the gallery entrance </p>
               <p>or inside the poster.</p>
@@ -85,14 +87,18 @@
 
       <div class="footer-wrap">
         <div class="f3">
-          <div class="coffee">COFFEE WITH US?</div>
-          <div class="copyright">Createc Solution 2015 - 2016; All Rights Reserved      沪ICP备14054408号-6</div>
+          <div class="coffee">C<span>OFFEE</span> W<span>ITH</span> U<span>S</span>?</div>
+          
+        </div>
+
+        <div class="copyright">
+          Createc Solution 2015 - 2016; All Rights Reserved<span>沪 ICP 备 14054408 号 - 6</span>
         </div>
 
         <div class="f1"><img src="images/logo.png" alt=""></div>
         <div class="f2"><p>Empowered by</p>  <p>Createc Solution.</p></div>
         <div class="f4"><img src="images/contact.png" alt=""></div>
-      
+        
       </div>
 
     </div>
@@ -100,10 +106,13 @@
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="/bower_components/vide/dist/jquery.vide.js"></script>
     <script src="/bower_components/dropzone/dist/min/dropzone.min.js"></script>
     <script src="/bower_components/qrcode.js/qrcode.js"></script>
+    <script src="/bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="/bower_components/PrintArea/demo/jquery-ui-1.10.4.custom.js"></script>
+    <script src="/bower_components/PrintArea/demo/jquery.PrintArea.js"></script>
+
     <!-- endbower -->
     <!-- endbuild -->
 
