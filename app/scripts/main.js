@@ -4,14 +4,17 @@ var app = app || {};
 app.init = function(){
   this.bind_upload_event();
   this.print_qrcode();
-};  
+};
 
 app.bind_upload_event = function(){
   $('#container').dropzone({
     url: 'upload.php',
-    maxFilesize: 512,
     acceptedFiles: '.jpg,.png,.gif',
     init: function() {
+      this.on("addedfile", function(file) {
+        $('#artimg').attr('src', 'images/processing.png');
+      });
+
       this.on('success', function(file) {
 
         var uuid = file.xhr.responseText.trim();
@@ -28,7 +31,7 @@ app.bind_upload_event = function(){
 
 app.generate_qrcode = function(url){
   $('#qrcode').html('');
-  var qrcode = new QRCode('qrcode', { 
+  var qrcode = new QRCode('qrcode', {
     width: 200,
     height: 200}
                 );
@@ -37,7 +40,6 @@ app.generate_qrcode = function(url){
   setTimeout(function(){
     $('#download').attr('href', $('#qrcode img').attr('src'));
   }, 1000);
-    
 };
 
 app.print_qrcode = function(){

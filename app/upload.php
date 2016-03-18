@@ -1,17 +1,19 @@
 <?php
-$ds          = DIRECTORY_SEPARATOR;  //1
- 
-$storeFolder = 'uploads';   //2
- 
-if (!empty($_FILES)) {
-     
-    $tempFile = $_FILES['file']['tmp_name'];          //3             
-      
-    $targetPath = dirname( __FILE__ ) . $ds. $storeFolder . $ds;  //4
-    
-    $uuid = uniqid().'.'.end(explode(".", $_FILES["file"]["name"]));
-    $targetFile =  $targetPath.$uuid;  //5
- 
-    move_uploaded_file($tempFile,$targetFile); //6
-    echo $uuid;}
-?>  
+    // ini_set('display_errors', true);
+    // error_reporting(E_ALL);
+    error_reporting(0);
+    date_default_timezone_set("Asia/Shanghai");
+
+    $ds          = DIRECTORY_SEPARATOR;
+    $storeFolder = 'uploads';
+
+    if (!empty($_FILES))
+    {
+        $tempFile    = $_FILES['file']['tmp_name'];
+        $targetPath  = dirname( __FILE__ ) . $ds. $storeFolder . $ds;
+        $uuid        = uniqid().'.'.end(explode(".", $_FILES["file"]["name"]));
+        $targetFile  =  $targetPath.$uuid;
+        move_uploaded_file($tempFile,$targetFile);
+        echo $uuid;
+    }
+?>

@@ -5,7 +5,7 @@
     "vide": "~0.5.0",
     "dropzone": "^4.2.0",
     "qrcode.js": "git://github.com/davidshimjs/qrcodejs.git",
-    "PrintArea": "https://github.com/RitsC/PrintArea.git#^2.4.1"
+    "print-area": "https://github.com/RitsC/PrintArea.git#^2.4.1"
   },
   "devDependencies": {
     "chai": "~3.4.2",
