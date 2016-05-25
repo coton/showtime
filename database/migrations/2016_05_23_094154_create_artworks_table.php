@@ -13,12 +13,11 @@ class CreateArtworksTable extends Migration
     public function up()
     {
         Schema::create('artworks', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->uuid('md5');
+            $table->uuid('md5')->unique();
+            $table->string("name");
+            $table->string("url");
             $table->integer('ip');
             $table->integer('artist_id');
-            $table->integer('like');
-
             $table->timestamps();
         });
     }

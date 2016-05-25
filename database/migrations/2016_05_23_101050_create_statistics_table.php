@@ -13,8 +13,9 @@ class CreateStatisticsTable extends Migration
     public function up()
     {
         Schema::create('statistics', function (Blueprint $table) {
-            $table->integer('artwork_id');
-            $table->integer('pv');
+            $table->uuid('artwork_md5');
+            $table->enum('type', ['pv', 'like']);
+            $table->integer('ip');
             $table->timestamps();
         });
     }
