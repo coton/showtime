@@ -141,6 +141,26 @@ class ArtWorkController extends Controller
      */
     private function getLikeCountByArtwork($artwork_md5)
     {
-        return Statistic::where('artwork_md5', $artwork_md5)->count();
+        return Statistic::where('artwork_md5', $artwork_md5)->where('type', 'like')->count();
+    }
+
+    /**
+     * add pv by artwork_id
+     *
+     * @param $artworkid
+     */
+    public function addLikeByArtworkMD5($artwork_md5)
+    {
+
+        $statistic = new Statistic();
+        $statistic->artwork_md5 = $artwork_md5;
+        $statistic->type = 'like';
+        $statistic->ip = $this->request->ip();
+
+        if($statistic->save())
+            return response()->json(['code' => '1', 'success' => 'success']);
+        else
+            return response()->json(['code' => '0', 'error' => 'error']);
+
     }
 }

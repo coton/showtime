@@ -1,7 +1,9 @@
 {
-  "css/main.css": "css/main-f3b9682bc1.css",
-  "css/vendor.css": "css/vendor-7e3d6c9281.css",
-  "js/ie.js": "js/ie-0306dfb3bb.js",
-  "js/main.js": "js/main-1f8187d54c.js",
-  "js/vendor.js": "js/vendor-72ca02bac7.js"
+  "css/main.css": "css/main-82af5cde76.css",
+  "css/vendor.css": "css/vendor-5354cef5d1.css",
+  "js/artwork.js": "js/artwork-f76b0724e0.js",
+  "js/ie.js": "js/ie-92a3b2fa0e.js",
+  "js/index.js": "js/index-37de4d45e7.js",
+  "js/jq.js": "js/jq-d6d054d1ef.js",
+  "js/vendor.js": "js/vendor-76f2daaefc.js"
 }

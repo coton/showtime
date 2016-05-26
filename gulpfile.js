@@ -2,7 +2,7 @@ var elixir = require('laravel-elixir');
 
 require('laravel-elixir-imagemin');
 
-elixir.config.sourcemaps = true;
+elixir.config.sourcemaps = false;
 
 /*
  |--------------------------------------------------------------------------
@@ -25,6 +25,7 @@ elixir(function(mix) {
     mix.copy('bower_components/dropzone/dist/min/dropzone.min.css', 'resources/assets/css/');
 
     mix.copy(['bower_components/jquery/dist/jquery.min.js',
+        'bower_components/js-cookie/src/js.cookie.js',
         'bower_components/dropzone/dist/min/dropzone.min.js',
         'bower_components/qrcode.js/qrcode.js',
         'bower_components/PrintArea/demo/jquery.PrintArea.js'
@@ -33,6 +34,7 @@ elixir(function(mix) {
 
     mix.copy('resources/assets/fonts', 'public/fonts');
 
+    // imagemin
     mix.imagemin("./resources/assets/images", "public/images/");
 
 
@@ -42,11 +44,16 @@ elixir(function(mix) {
         .styles(['main.css'], 'public/css/main.css');
 
     mix.scripts(['html5shiv.min.js', 'respond.min.js'], 'public/js/ie.js')
-        .scripts(['jquery.min.js', 'dropzone.min.js', 'qrcode.js', 'jquery.PrintArea.js'], 'public/js/vendor.js')
-        .scripts('main.js', 'public/js/main.js');
+        .scripts(['jquery.min.js', 'js.cookie.js'], 'public/js/jq.js')
+        .scripts(['dropzone.min.js', 'qrcode.js', 'jquery.PrintArea.js'], 'public/js/vendor.js')
+        .scripts('index.js', 'public/js/index.js')
+        .scripts('artwork.js', 'public/js/artwork.js');
 
 
-    // hash
-    mix.version(["css/vendor.css", "css/main.css", "js/ie.js", "js/vendor.js", "js/main.js"]);
+    // version
+    mix.version(["css/vendor.css", "css/main.css", "js/ie.js", "js/jq.js", "js/vendor.js", "js/index.js", "js/artwork.js"]);
+
+    // uploads
+    mix.copy('resources/assets/uploads', 'public/uploads');
 });
 

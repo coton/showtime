@@ -22,25 +22,7 @@ class StatisticController extends Controller
     }
     
 
-    /**
-     * add pv by artwork_id
-     *
-     * @param $artworkid
-     */
-    public function addLikeByArtworkMD5($artwork_md5)
-    {
-
-        $statistic = new Statistic();
-        $statistic->artworkid = $artworkid;
-        $statistic->type = 'like';
-        $statistic->ip = $this->request->ip();
-
-        if($statistic->save())
-            return response()->json(['code' => '1', 'message' => 'addlikebyartwork success!']);
-        else
-            return response()->json(['code' => '0', 'message' => 'addlikebyartwork fail!']);
-
-    }
+ 
 
 
 }

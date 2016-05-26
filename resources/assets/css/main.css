@@ -68,8 +68,8 @@ body{background:#fafafa;font-family:Helvetica,Tahoma,Arial,sans-serif;color:#333
 .uploadandpreview-wrap .review .l .screen img{max-width: 100%; }
 .uploadandpreview-wrap .review .l .process-rate{position: relative; top: 180px; color: #898989;}
 .uploadandpreview-wrap .review .l .process{position: relative; top: 180px; color: #898989; display: none;}
-.uploadandpreview-wrap .review .r .pt1{width:320px; height: 210px; margin-top: 50px;}
-.uploadandpreview-wrap .review .r .pt1 .qr{width:200px; height: 200px; float: left; margin: 0px 30px 0px 30px;}
+.uploadandpreview-wrap .review .r .pt1{width:340px; height: 210px; margin-top: 50px;}
+.uploadandpreview-wrap .review .r .pt1 .qr{width:200px; height: 200px; float: left; margin: 0px 30px 0px 30px; border: 10px solid #fafafa; background: #fafafa;}
 .uploadandpreview-wrap .review .r .pt1 .qr img{width:200px; height: 200px;}
 .uploadandpreview-wrap .review .r .pt1 .download{width:60px; height: 60px; margin-top: 40px;}
 .uploadandpreview-wrap .review .r .pt1 .print{width:60px; height: 60px; margin-top: 20px; cursor: pointer;}
