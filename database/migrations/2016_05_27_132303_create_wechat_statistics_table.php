@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateStatisticsTable extends Migration
+class CreateWechatStatisticsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,9 +12,11 @@ class CreateStatisticsTable extends Migration
      */
     public function up()
     {
-        Schema::create('statistics', function (Blueprint $table) {
+        Schema::create('wechat_statistics', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('page', '18');
             $table->uuid('artwork_md5');
-            $table->enum('type', ['pv', 'like']);
+            $table->string('type', '18'); // ['share-timeline', 'share-appmessage', 'share-qq', 'share-weibo']
             $table->string('ip');
             $table->timestamps();
         });
@@ -27,6 +29,6 @@ class CreateStatisticsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('statistics');
+        Schema::drop('wechat_statistics');
     }
 }

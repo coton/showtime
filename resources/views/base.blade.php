@@ -40,6 +40,7 @@
 @yield('content')
 
 <script src="{{ elixir('js/jq.js') }}"></script>
+<script src="{{ elixir('js/statistic.js') }}"></script>
 @yield('js')
 
 <!-- START WECHAT SHARE -->
@@ -51,18 +52,21 @@
 <!--/ END WECHAT SHARE -->
 
 
-<!-- START GOOGLE ANALYTICS -->
-<!--<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!-- START TENCENT H5 ANALYTICS -->
+<script type="text/javascript" src="http://pingjs.qq.com/h5/stats.js" name="MTAH5" sid="500128700" ></script>
+<!--/ END TENCENT H5 ANALYTICS -->
 
-    ga('create', 'UA-55892530-1', 'auto');
-    ga('send', 'pageview');
-
-</script>-->
-<!--/ END GOOGLE ANALYTICS -->
+<!-- START BAIDU ANALYTICS -->
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?fccd04ccfca6d0e9e01f234fc2f25302";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<!--/ END BAIDU ANALYTICS -->
 
 
 </body>

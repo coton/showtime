@@ -23,3 +23,6 @@ Route::post('/artwork/add', 'ArtWorkController@add');
 Route::get('/artwork/{artwork_md5}', 'ArtWorkController@show');
 
 Route::post('/artwork/like/{artwork_md5}', 'ArtWorkController@addLikeByArtworkMD5');
+
+// wechat statistic
+Route::post('/wechatstat/add', 'WechatStatisticController@add');

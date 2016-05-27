@@ -2,7 +2,7 @@ var elixir = require('laravel-elixir');
 
 require('laravel-elixir-imagemin');
 
-elixir.config.sourcemaps = true;
+elixir.config.sourcemaps = false;
 
 /*
  |--------------------------------------------------------------------------
@@ -48,11 +48,12 @@ elixir(function(mix) {
         .scripts(['dropzone.min.js', 'qrcode.js', 'jquery.PrintArea.js'], 'public/js/vendor.js')
         .scripts('index.js', 'public/js/index.js')
         .scripts('artwork.js', 'public/js/artwork.js')
-        .scripts('jweixin-1.0.0.js', 'public/js/wechat.js');
+        .scripts('jweixin-1.0.0.js', 'public/js/wechat.js')
+        .scripts('statistic.js', 'public/js/statistic.js');
 
 
     // version
-    mix.version(['css/vendor.css', 'css/main.css', 'js/ie.js', 'js/jq.js', 'js/vendor.js', 'js/index.js', 'js/artwork.js', 'js/wechat.js']);
+    mix.version(['css/vendor.css', 'css/main.css', 'js/ie.js', 'js/jq.js', 'js/vendor.js', 'js/index.js', 'js/artwork.js', 'js/wechat.js', 'js/statistic.js']);
 
     // uploads
     mix.copy('resources/assets/uploads', 'public/uploads');

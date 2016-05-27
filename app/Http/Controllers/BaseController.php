@@ -21,7 +21,6 @@ class BaseController extends Controller
         $this->request = $request;
 
         $this->setLocalebyBrowerLanguage();
-        
     }
 
 

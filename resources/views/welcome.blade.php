@@ -97,46 +97,50 @@
     <script language="javascript">
         wx.ready(function () {
 
-        wx.onMenuShareTimeline({
-            title: '{{ trans('wechat.share_moment_title') }}',
-            link: '{{ URL::current() }}',
-            imgUrl: '{{ asset('images/share-icon.png') }}',
-            success: function () {
-            },
-            cancel: function () {
-            }
-        });
-        wx.onMenuShareAppMessage({
-            title: '{{ trans('wechat.share_title') }}',
-            desc: '{{ trans('wechat.share_desc') }}',
-            link: '{{ URL::current() }}',
-            imgUrl: '{{ asset('images/share-icon.png') }}',
-            success: function () {
-            },
-            cancel: function () {
-
-            }
-        });
-        wx.onMenuShareQQ({
-            title: '{{ trans('wechat.share_title') }}',
-            desc: '{{ trans('wechat.share_desc') }}',
-            link: '{{ URL::current() }}',
-            imgUrl: '{{ asset('images/share-icon.png') }}',
-            success: function () {
-            },
-            cancel: function () {
-            }
+            wx.onMenuShareTimeline({
+                title: '{{ trans('wechat.share_moment_title') }}',
+                link: '{{ URL::current() }}',
+                imgUrl: '{{ asset('images/share-icon.png') }}',
+                success: function () {
+                    ShowTimeStatistic.wechat('index', '', 'share-timeline');
+                },
+                cancel: function () {
+                }
             });
-        wx.onMenuShareWeibo({
-            title: '{{ trans('wechat.share_title') }}',
-            desc: '{{ trans('wechat.share_desc') }}',
-            link: '{{ URL::current() }}',
-            imgUrl: '{{ asset('images/share-icon.png') }}',
-            success: function () {
-            },
-            cancel: function () {
-            }
-        });
+            wx.onMenuShareAppMessage({
+                title: '{{ trans('wechat.share_title') }}',
+                desc: '{{ trans('wechat.share_desc') }}',
+                link: '{{ URL::current() }}',
+                imgUrl: '{{ asset('images/share-icon.png') }}',
+                success: function () {
+                    ShowTimeStatistic.wechat('index', '', 'share-appmessage');
+                },
+                cancel: function () {
+
+                }
+            });
+            wx.onMenuShareQQ({
+                title: '{{ trans('wechat.share_title') }}',
+                desc: '{{ trans('wechat.share_desc') }}',
+                link: '{{ URL::current() }}',
+                imgUrl: '{{ asset('images/share-icon.png') }}',
+                success: function () {
+                    ShowTimeStatistic.wechat('index', '', 'share-qq');
+                },
+                cancel: function () {
+                }
+                });
+            wx.onMenuShareWeibo({
+                title: '{{ trans('wechat.share_title') }}',
+                desc: '{{ trans('wechat.share_desc') }}',
+                link: '{{ URL::current() }}',
+                imgUrl: '{{ asset('images/share-icon.png') }}',
+                success: function () {
+                    ShowTimeStatistic.wechat('index', '', 'share-weibo');
+                },
+                cancel: function () {
+                }
+            });
 
         });
     </script>

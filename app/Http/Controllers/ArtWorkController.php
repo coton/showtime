@@ -122,7 +122,7 @@ class ArtWorkController extends BaseController
         $statistic = new Statistic();
         $statistic->artwork_md5 = $artwork_md5;
         $statistic->type = 'pv';
-        $statistic->ip = $this->request->ip();
+        $statistic->ip = $this->request->getClientIp();
 
         $statistic->save();
     }
@@ -148,7 +148,7 @@ class ArtWorkController extends BaseController
         $statistic = new Statistic();
         $statistic->artwork_md5 = $artwork_md5;
         $statistic->type = 'like';
-        $statistic->ip = $this->request->ip();
+        $statistic->ip = $this->request->getClientIp();
 
         if($statistic->save())
             return response()->json(['code' => '1', 'success' => 'success']);

@@ -16,7 +16,7 @@ class CreateArtworksTable extends Migration
             $table->uuid('md5')->unique();
             $table->string("name");
             $table->string("url");
-            $table->integer('ip');
+            $table->string('ip');
             $table->integer('artist_id');
             $table->timestamps();
         });

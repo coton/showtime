@@ -49,6 +49,7 @@
                 link: '{{ URL::current() }}',
                 imgUrl: '{{ asset('images/share-icon.png') }}',
                 success: function () {
+                    ShowTimeStatistic.wechat('artwork', '{{ $artwork->md5 }}', 'share-timeline');
                 },
                 cancel: function () {
                 }
@@ -59,6 +60,7 @@
                 link: '{{ URL::current() }}',
                 imgUrl: '{{ asset('images/share-icon.png') }}',
                 success: function () {
+                    ShowTimeStatistic.wechat('artwork', '{{ $artwork->md5 }}', 'share-appmessage');
                 },
                 cancel: function () {
 
@@ -70,6 +72,7 @@
                 link: '{{ URL::current() }}',
                 imgUrl: '{{ asset('images/share-icon.png') }}',
                 success: function () {
+                    ShowTimeStatistic.wechat('artwork', '{{ $artwork->md5 }}', 'share-qq');
                 },
                 cancel: function () {
                 }
@@ -80,6 +83,7 @@
                 link: '{{ URL::current() }}',
                 imgUrl: '{{ asset('images/share-icon.png') }}',
                 success: function () {
+                    ShowTimeStatistic.wechat('artwork', '{{ $artwork->md5 }}', 'share-weibo');
                 },
                 cancel: function () {
                 }
