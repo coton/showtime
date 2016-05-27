@@ -66,4 +66,3 @@ var app = function(){
 }();
 
 app.init();
-//# sourceMappingURL=artwork.js.map

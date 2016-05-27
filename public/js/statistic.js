@@ -20,4 +20,3 @@ var ShowTimeStatistic = function(){
         }
     }
 }();
-//# sourceMappingURL=statistic.js.map

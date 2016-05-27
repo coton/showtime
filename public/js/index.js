@@ -41,6 +41,7 @@ var app = function(){
                 acceptedFiles: '.jpg,.png,.gif',
                 init: function () {
                     this.on("addedfile", function (file) {
+                        $('#artimg').attr('src', '');
                         $('#artimg').hide();
                         $('.process').show();
                     });
@@ -59,7 +60,7 @@ var app = function(){
                             $('#artimg').attr('src', rs.url);
 
                             $(".process-rate").html("");
-                            $('#artimg').fadeIn();
+                            $('#artimg').show();
 
                             app.generate_qrcode(rs.qrurl);
                         } else {
@@ -84,4 +85,3 @@ var app = function(){
 }();
 
 app.init();
-//# sourceMappingURL=index.js.map

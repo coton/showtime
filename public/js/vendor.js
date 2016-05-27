@@ -808,4 +808,3 @@ var QRCode;
         }
     };
 })(jQuery);
-//# sourceMappingURL=vendor.js.map

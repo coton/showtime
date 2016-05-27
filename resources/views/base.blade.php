@@ -46,7 +46,7 @@
 <!-- START WECHAT SHARE -->
 <script src="{{ elixir('js/wechat.js') }}"></script>
 <script type="text/javascript" charset="utf-8">
-    wx.config(<?php echo $js->config(array('onMenuShareTimeline', 'onMenuShareAppMessage', 'onMenuShareQQ', 'onMenuShareWeibo'), true) ?>);
+    wx.config(<?php echo $js->config(array('onMenuShareTimeline', 'onMenuShareAppMessage', 'onMenuShareQQ', 'onMenuShareWeibo'), false) ?>);
 </script>
 @yield('wechatshare')
 <!--/ END WECHAT SHARE -->
