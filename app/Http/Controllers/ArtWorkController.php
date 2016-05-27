@@ -10,24 +10,15 @@ use App\Models\Artwork;
 
 use App\Models\Statistic;
 
-class ArtWorkController extends Controller
+class ArtWorkController extends BaseController
 {
-    private $request;
 
     // artwork attribute
     private $artworkName;
     private $artworkMD5;
     private $artworkURL;
     private $artworkIsExists = true;
-
-    /**
-     * StatisticController constructor.
-     * @param $request
-     */
-    public function __construct(Request $request)
-    {
-        $this->request = $request;
-    }
+    
 
     /**
      * add artwork
@@ -111,7 +102,9 @@ class ArtWorkController extends Controller
 
             $this->addPVByArtwork($artwork->md5);
 
-            return view('artwork', ['artwork' => $artwork, 'likecount' => $likecount]);
+            $wechat = app('wechat');
+
+            return view('artwork', ['artwork' => $artwork, 'likecount' => $likecount, 'js'=>$wechat->js]);
         }else
         {
             return redirect("/");

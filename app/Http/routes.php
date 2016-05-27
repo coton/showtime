@@ -11,9 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'ShowTimeController@welcome');
+
+
+// wechat server verify
+Route::any('/wechat', 'WechatController@serve');
 
 
 Route::post('/artwork/add', 'ArtWorkController@add');

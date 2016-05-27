@@ -1,9 +1,10 @@
 {
-  "css/main.css": "css/main-82af5cde76.css",
-  "css/vendor.css": "css/vendor-5354cef5d1.css",
-  "js/artwork.js": "js/artwork-f76b0724e0.js",
-  "js/ie.js": "js/ie-92a3b2fa0e.js",
-  "js/index.js": "js/index-37de4d45e7.js",
-  "js/jq.js": "js/jq-d6d054d1ef.js",
-  "js/vendor.js": "js/vendor-76f2daaefc.js"
+  "css/main.css": "css/main-fe89b07240.css",
+  "css/vendor.css": "css/vendor-7e3d6c9281.css",
+  "js/artwork.js": "js/artwork-6278342d13.js",
+  "js/ie.js": "js/ie-0306dfb3bb.js",
+  "js/index.js": "js/index-18fbd0bde5.js",
+  "js/jq.js": "js/jq-4c2e0f12e5.js",
+  "js/vendor.js": "js/vendor-6a561ba7c0.js",
+  "js/wechat.js": "js/wechat-f73f903a23.js"
 }

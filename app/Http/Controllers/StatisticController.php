@@ -8,21 +8,9 @@ use App\Http\Requests;
 
 use App\Models\Statistic;
 
-class StatisticController extends Controller
+class StatisticController extends BaseController
 {
-    public $request;
 
-    /**
-     * StatisticController constructor.
-     * @param $request
-     */
-    public function __construct(Request $request)
-    {
-        $this->request = $request;
-    }
-    
-
- 
 
 
 }

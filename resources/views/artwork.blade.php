@@ -39,3 +39,52 @@
 @section('js')
     <script src="{{ elixir('js/artwork.js') }}"></script>
 @endsection
+
+@section('wechatshare')
+    <script language="javascript">
+        wx.ready(function () {
+
+            wx.onMenuShareTimeline({
+                title: '{{ trans('wechat.artwork_share_moment_title') }}',
+                link: '{{ URL::current() }}',
+                imgUrl: '{{ asset('images/share-icon.png') }}',
+                success: function () {
+                },
+                cancel: function () {
+                }
+            });
+            wx.onMenuShareAppMessage({
+                title: '{{ trans('wechat.artwork_share_title') }}',
+                desc: '{{ trans('wechat.artwork_share_desc') }}',
+                link: '{{ URL::current() }}',
+                imgUrl: '{{ asset('images/share-icon.png') }}',
+                success: function () {
+                },
+                cancel: function () {
+
+                }
+            });
+            wx.onMenuShareQQ({
+                title: '{{ trans('wechat.artwork_share_title') }}',
+                desc: '{{ trans('wechat.artwork_share_desc') }}',
+                link: '{{ URL::current() }}',
+                imgUrl: '{{ asset('images/share-icon.png') }}',
+                success: function () {
+                },
+                cancel: function () {
+                }
+            });
+            wx.onMenuShareWeibo({
+                title: '{{ trans('wechat.artwork_share_title') }}',
+                desc: '{{ trans('wechat.artwork_share_desc') }}',
+                link: '{{ URL::current() }}',
+                imgUrl: '{{ asset('images/share-icon.png') }}',
+                success: function () {
+                },
+                cancel: function () {
+                }
+            });
+
+        });
+    </script>
+@endsection
