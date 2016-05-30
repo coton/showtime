@@ -156,4 +156,16 @@ class ArtWorkController extends BaseController
             return response()->json(['code' => '0', 'error' => 'error']);
 
     }
+
+    /**
+     * artowk list
+     *
+     * @return mixed
+     */
+    public function all()
+    {
+        $artworks = Artwork::paginate(20);
+
+        return view('artworklist', ['artworks'=>$artworks]);
+    }
 }

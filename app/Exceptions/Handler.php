@@ -53,7 +53,7 @@ class Handler extends ExceptionHandler
             return response()->view('errors.404');
         }else
         {
-            return response()->view('errors.500');
+           // return response()->view('errors.500');
         }
 
         return parent::render($request, $e);

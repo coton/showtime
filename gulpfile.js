@@ -22,7 +22,8 @@ elixir(function(mix) {
         'bower_components/respond/dest/respond.min.js'
     ], 'resources/assets/js/');
 
-    mix.copy('bower_components/dropzone/dist/min/dropzone.min.css', 'resources/assets/css/');
+    mix.copy('bower_components/bootstrap/dist/css/bootstrap.css'
+    , 'resources/assets/css/');
 
     mix.copy(['bower_components/jquery/dist/jquery.min.js',
         'bower_components/js-cookie/src/js.cookie.js',
@@ -41,6 +42,7 @@ elixir(function(mix) {
 
     // merge
     mix.styles(['dropzone.min.css'], 'public/css/vendor.css')
+        .styles(['bootstrap.css'], 'public/css/bs.css')
         .styles(['main.css'], 'public/css/main.css');
 
     mix.scripts(['html5shiv.min.js', 'respond.min.js'], 'public/js/ie.js')
@@ -53,7 +55,7 @@ elixir(function(mix) {
 
 
     // version
-    mix.version(['css/vendor.css', 'css/main.css', 'js/ie.js', 'js/jq.js', 'js/vendor.js', 'js/index.js', 'js/artwork.js', 'js/wechat.js', 'js/statistic.js']);
+    mix.version(['css/vendor.css', 'css/main.css', 'css/bs.css', 'js/ie.js', 'js/jq.js', 'js/vendor.js', 'js/index.js', 'js/artwork.js', 'js/wechat.js', 'js/statistic.js']);
 
     // uploads
     mix.copy('resources/assets/uploads', 'public/uploads');
