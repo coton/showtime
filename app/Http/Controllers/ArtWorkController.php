@@ -166,6 +166,7 @@ class ArtWorkController extends BaseController
     {
         $artworks = Artwork::paginate(20);
 
-        return view('artworklist', ['artworks'=>$artworks]);
+        $wechat = app('wechat');
+        return view('artworklist', ['artworks'=>$artworks, 'js'=>$wechat->js]);
     }
 }
