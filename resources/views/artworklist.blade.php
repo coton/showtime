@@ -7,7 +7,7 @@
         body{ background:#fafafa;}
         .container{width:100%; text-align: center;}
 
-        .artwork{width:320px; height: 620px; float: left; background-repeat: no-repeat; background-size: cover; margin: 25px 50px; }
+        .artwork{width:320px; height: 620px; float: left; background-repeat: no-repeat; background-size: cover; margin: 25px 35px; }
         .artwork .screen{width:310px;height:550px; overflow:scroll; color: #f2f2f2; border: 5px solid #e1e1e1;}
         .artwork .screen::-webkit-scrollbar { display: none;}
         .artwork .screen img{max-width: 100%; }
@@ -64,7 +64,7 @@
                 link: '{{ URL::current() }}',
                 imgUrl: '{{ asset('images/share-icon.png') }}',
                 success: function () {
-                    ShowTimeStatistic.wechat('artworklist', '{{ $artwork->md5 }}', 'share-timeline');
+                    ShowTimeStatistic.wechat('artworklist', '', 'share-timeline');
                 },
                 cancel: function () {
                 }
@@ -75,7 +75,7 @@
                 link: '{{ URL::current() }}',
                 imgUrl: '{{ asset('images/share-icon.png') }}',
                 success: function () {
-                    ShowTimeStatistic.wechat('artworklist', '{{ $artwork->md5 }}', 'share-appmessage');
+                    ShowTimeStatistic.wechat('artworklist', '', 'share-appmessage');
                 },
                 cancel: function () {
 
@@ -87,7 +87,7 @@
                 link: '{{ URL::current() }}',
                 imgUrl: '{{ asset('images/share-icon.png') }}',
                 success: function () {
-                    ShowTimeStatistic.wechat('artworklist', '{{ $artwork->md5 }}', 'share-qq');
+                    ShowTimeStatistic.wechat('artworklist', '', 'share-qq');
                 },
                 cancel: function () {
                 }
@@ -98,7 +98,7 @@
                 link: '{{ URL::current() }}',
                 imgUrl: '{{ asset('images/share-icon.png') }}',
                 success: function () {
-                    ShowTimeStatistic.wechat('artworklist', '{{ $artwork->md5 }}', 'share-weibo');
+                    ShowTimeStatistic.wechat('artworklist', '', 'share-weibo');
                 },
                 cancel: function () {
                 }
