@@ -2,14 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7216485-e3e8-4be6-b59b-17934cbb98fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/artworklist.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/images/example.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/uploads/a1abb3b4a356fb9e555715be7c3dbbd8.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/artworklist.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/css/bs-5ba37ad916.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/css/main-8241107d6d.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/css/main.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/css/vendor-2f735dbf47.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/css/vendor.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/js/artwork-12289161ad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/js/artwork.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/js/ie-489b973f76.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/js/ie.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/js/index-919bdc6b7f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/js/index.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/js/jq-a0cdf7e1dc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/js/jq.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/js/statistic-305e4d2003.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/js/statistic.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/js/vendor-0f8b4f8803.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/js/vendor.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/js/wechat-ad021d4c53.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/js/wechat.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/rev-manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/bs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/main.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/vendor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/vendor.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/avenirnext.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/avenirnext.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/avenirnext.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/avenirnext.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/helveticaneue.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/helveticaneue.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/helveticaneue.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/helveticaneue.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/khmermn.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/khmermn.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/khmermn.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/khmermn.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/contact.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/download.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/example.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/icon-like-f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/icon-like.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/print.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/share-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/step1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/step2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/step3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/upload-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/artwork.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/artwork.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/ie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/ie.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/index.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jq.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/statistic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/statistic.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/vendor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/vendor.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/wechat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/wechat.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/0d5c680f6bdc8e9af0e26667508a38ee.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/150dafc53dc413ae7dc76dbafa86cc28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/30699a77cf958a5dfe9f40217de7ae33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/43b9e331645c1cda6be6a3ee4af5ff0d.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/4d7b4832ab89db6b4832229f76800c8d.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/61d2d6e3e74ef4d152864e6a36f46628.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/77ba0f834c6e985697e8779a23f784b4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/7da9da60fbcc8ff789b670fc004ab8ae.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/9c568f572c9a40da5b708d6abb199a23.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/da126e0610023d83d552fd5bc2a18dac.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/fdfd355e7a07c67a45bd772f8c666e77.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/images/example.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/uploads/77ba0f834c6e985697e8779a23f784b4.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/main.css" afterPath="$PROJECT_DIR$/resources/assets/css/welcome.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/index.js" afterPath="$PROJECT_DIR$/resources/assets/js/welcome.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ArtWorkController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArtWorkController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/build/rev-manifest.json" afterPath="$PROJECT_DIR$/public/build/rev-manifest.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/artworklist.blade.php" afterPath="$PROJECT_DIR$/resources/views/artworklist.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
     </list>
     <ignored path="showtime.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,100 +110,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="80" column="68" selection-start-line="80" selection-start-column="68" selection-end-line="80" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BaseController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Handler.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArtWorkController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArtWorkController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-              <folding>
-                <element signature="e#344#402#0#PHP" expanded="false" />
-                <element signature="e#407#1221#0#PHP" expanded="false" />
-                <element signature="e#443#1215#0#PHP" expanded="false" />
-                <element signature="e#925#1215#0#PHP" expanded="false" />
-                <element signature="e#1357#2179#0#PHP" expanded="false" />
-                <element signature="e#1397#2150#0#PHP" expanded="false" />
-                <element signature="e#1593#2140#0#PHP" expanded="false" />
-                <element signature="e#2185#2330#0#PHP" expanded="false" />
-                <element signature="e#2336#2437#0#PHP" expanded="false" />
-                <element signature="e#2557#2914#0#PHP" expanded="false" />
-                <element signature="e#2856#2914#0#PHP" expanded="false" />
-                <element signature="e#2926#2999#0#PHP" expanded="false" />
-                <element signature="e#3004#3266#0#PHP" expanded="false" />
-                <element signature="e#3272#3350#0#PHP" expanded="false" />
-                <element signature="e#3355#3513#0#PHP" expanded="false" />
-                <element signature="e#3519#3590#0#PHP" expanded="false" />
-                <element signature="e#3595#4032#0#PHP" expanded="false" />
-                <element signature="e#4038#4096#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="artworklist.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/artworklist.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+            <state relative-caret-position="-319">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file leaf-file-name="artworklist.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/assets/js/artworklist.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+            <state relative-caret-position="361">
+              <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="artwork.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/artwork.blade.php">
+      <file leaf-file-name="welcome.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/assets/js/welcome.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="266">
+              <caret line="31" column="54" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -133,18 +143,28 @@
       <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="63" />
+            <state relative-caret-position="836">
+              <caret line="44" column="71" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/base.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="61">
+              <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="artwork.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/artwork.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -200,19 +220,21 @@
         <option value="$PROJECT_DIR$/resources/views/errors/403.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/errors/404.balade.php" />
         <option value="$PROJECT_DIR$/resources/assets/js/statistic.js" />
-        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/artwork.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/errors/500.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" />
         <option value="$PROJECT_DIR$/resources/views/base.blade.php" />
-        <option value="$PROJECT_DIR$/resources/assets/js/index.js" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Exceptions/Handler.php" />
         <option value="$PROJECT_DIR$/resources/assets/css/main.css" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/resources/views/artworklist.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ArtWorkController.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/index.js" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/artwork.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/welcome.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/resources/assets/js/artworklist.js" />
+        <option value="$PROJECT_DIR$/resources/views/artworklist.blade.php" />
       </list>
     </option>
   </component>
@@ -340,6 +362,166 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showtime" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploads" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showtime" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showtime" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showtime" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showtime" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showtime" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showtime" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showtime" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -356,16 +538,16 @@
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/assets/uploads" />
+      <recent name="$PROJECT_DIR$/resources/assets/images" />
+      <recent name="$PROJECT_DIR$/resources/lang/en" />
+      <recent name="$PROJECT_DIR$/resources/assets/js" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/Models" />
       <recent name="$PROJECT_DIR$/resources/lang/zh-CN" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/lang/en" />
-      <recent name="$PROJECT_DIR$/resources/assets/images" />
-      <recent name="$PROJECT_DIR$/resources/assets/js" />
-      <recent name="$PROJECT_DIR$/resources/assets/uploads" />
-      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Remote Debug.laravel-debug">
@@ -445,12 +627,12 @@
       <workItem from="1464588200365" duration="1049000" />
       <workItem from="1464590336462" duration="66000" />
       <workItem from="1464590437701" duration="33000" />
-      <workItem from="1464590514016" duration="3833000" />
+      <workItem from="1464590514016" duration="19375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79251000" />
+    <option name="totallyTimeSpent" value="94793000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,7 +648,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2556226" sideWeight="0.5054096" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17882611" sideWeight="0.49459043" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17882611" sideWeight="0.49459043" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988626" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -474,9 +656,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988626" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32746115" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32746115" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14093265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14611399" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -534,16 +716,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/build/js/ie-92a3b2fa0e.js" />
-    <entry file="file://$PROJECT_DIR$/public/build/js/index-37de4d45e7.js" />
-    <entry file="file://$PROJECT_DIR$/public/js/artwork.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/build/js/jq-d6d054d1ef.js" />
     <entry file="file://$PROJECT_DIR$/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -630,13 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_23_094154_create_artworks_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_23_101050_create_statistics_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -668,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/artwork.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="61" column="19" selection-start-line="46" selection-start-column="16" selection-end-line="61" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_27_132303_create_wechat_statistics_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -686,13 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="36" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/statistic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -721,14 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -813,14 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BaseController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -829,58 +964,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/artwork.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/base.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="80" column="68" selection-start-line="80" selection-start-column="68" selection-end-line="80" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/artworklist.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/resources/assets/images/example.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArtWorkController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+        <state relative-caret-position="640">
+          <caret line="166" column="42" selection-start-line="166" selection-start-column="42" selection-end-line="166" selection-end-column="42" />
           <folding>
             <element signature="e#344#402#0#PHP" expanded="false" />
             <element signature="e#407#1221#0#PHP" expanded="false" />
@@ -901,6 +993,120 @@
             <element signature="e#3595#4032#0#PHP" expanded="false" />
             <element signature="e#4038#4096#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/statistic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="1261" column="36" selection-start-line="1261" selection-start-column="36" selection-end-line="1261" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/artwork.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="61" column="19" selection-start-line="46" selection-start-column="16" selection-end-line="61" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/css/welcome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="68" column="64" selection-start-line="68" selection-start-column="64" selection-end-line="68" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_23_094154_create_artworks_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/welcome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="68" column="55" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/welcome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="31" column="54" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/artwork.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="71" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/artworklist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/artworklist.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-319">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>

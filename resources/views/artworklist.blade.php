@@ -1,68 +1,109 @@
-<!doctype html>
-<html class="no-js" lang="zh">
-<head>
-    <meta charset="utf-8">
-    <title>SHOWTIME秀台</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+@extends('base')
 
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="stylesheet" href="{{ elixir('css/bs.css') }}">
+@section('css')
+    <link rel="stylesheet" href="{{ elixir('css/vendor-artworklist.css') }}">
     <style>
         *{margin:0;padding:0; }
         body{ background:#fafafa;}
         .container{width:100%; text-align: center;}
 
-        .artwork{width:320px; height: 620px; float: left; background-repeat: no-repeat; background-size: cover; margin: 25px; border: 5px solid #e1e1e1;}
-        .artwork .screen{width:310px;height:610px; overflow:scroll; color: #f2f2f2;}
+        .artwork{width:320px; height: 620px; float: left; background-repeat: no-repeat; background-size: cover; margin: 25px 50px; }
+        .artwork .screen{width:310px;height:550px; overflow:scroll; color: #f2f2f2; border: 5px solid #e1e1e1;}
         .artwork .screen::-webkit-scrollbar { display: none;}
         .artwork .screen img{max-width: 100%; }
 
         .paginationwrap{clear: both;}
+
+        @media (max-width:768px){
+            .artwork{margin:25px; float: none;}
+        }
+
+        .tool-bar{margin-top:10px;}
+        .qrcode{width: 220px;  height: 220px;  padding-bottom:50px;  border: 10px solid #fafafa;  background: #fafafa;position: relative;  top: -280px;  left: 45px; display: none;}
+
     </style>
+@endsection
 
-    <!--[if lt IE 9]>
-    <script src="{{ elixir('js/ie.js') }}"></script>
-    <![endif]-->
+@section('content')
 
-</head>
-<body>
-<!--[if lt IE 10]>
-<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
+    <div class="container">
 
-<div class="container">
+        @foreach ($artworks as $artwork)
+            <div class="artwork">
+                <div class="screen">
+                    <img id="artimg" src="{{ $artwork->url }}" alt="">
+                </div>
 
-    @foreach ($artworks as $artwork)
-    <div class="artwork">
-        <div class="screen">
-            <img id="artimg" src="images/example.png" alt="">
+                <div class="tool-bar">
+                    <button type="button" class="btn btn-default btn-qrcode" data-artwork="{{ $artwork->md5 }}">QR Code</button>
+                </div>
+
+                <div class="qrcode" id="{{$artwork->md5}}" data-qrurl="{{ url('/artwork/') }}/{{ $artwork->md5 }}"></div>
+
+            </div>
+        @endforeach
+
+        <div class="paginationwrap">
+            {!! $artworks->render() !!}
         </div>
+
     </div>
-    @endforeach
+@endsection
 
-    <div class="paginationwrap">
-        {!! $artworks->render() !!}
-    </div>
+@section('js')
+    <script src="{{ elixir('js/vendor-artworklist.js') }}"></script>
+    <script src="{{ elixir('js/artworklist.js') }}"></script>
+@endsection
 
-</div>
+@section('wechatshare')
+    <script language="javascript">
+        wx.ready(function () {
 
-</body>
-</html>
+            wx.onMenuShareTimeline({
+                title: '{{ trans('wechat.artwork_share_moment_title') }}',
+                link: '{{ URL::current() }}',
+                imgUrl: '{{ asset('images/share-icon.png') }}',
+                success: function () {
+                    ShowTimeStatistic.wechat('artworklist', '{{ $artwork->md5 }}', 'share-timeline');
+                },
+                cancel: function () {
+                }
+            });
+            wx.onMenuShareAppMessage({
+                title: '{{ trans('wechat.artwork_share_title') }}',
+                desc: '{{ trans('wechat.artwork_share_desc') }}',
+                link: '{{ URL::current() }}',
+                imgUrl: '{{ asset('images/share-icon.png') }}',
+                success: function () {
+                    ShowTimeStatistic.wechat('artworklist', '{{ $artwork->md5 }}', 'share-appmessage');
+                },
+                cancel: function () {
+
+                }
+            });
+            wx.onMenuShareQQ({
+                title: '{{ trans('wechat.artwork_share_title') }}',
+                desc: '{{ trans('wechat.artwork_share_desc') }}',
+                link: '{{ URL::current() }}',
+                imgUrl: '{{ asset('images/share-icon.png') }}',
+                success: function () {
+                    ShowTimeStatistic.wechat('artworklist', '{{ $artwork->md5 }}', 'share-qq');
+                },
+                cancel: function () {
+                }
+            });
+            wx.onMenuShareWeibo({
+                title: '{{ trans('wechat.artwork_share_title') }}',
+                desc: '{{ trans('wechat.artwork_share_desc') }}',
+                link: '{{ URL::current() }}',
+                imgUrl: '{{ asset('images/share-icon.png') }}',
+                success: function () {
+                    ShowTimeStatistic.wechat('artworklist', '{{ $artwork->md5 }}', 'share-weibo');
+                },
+                cancel: function () {
+                }
+            });
+
+        });
+    </script>
+@endsection

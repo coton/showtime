@@ -1,12 +1,13 @@
 {
-  "css/bs.css": "css/bs-5ba37ad916.css",
-  "css/main.css": "css/main-8241107d6d.css",
-  "css/vendor.css": "css/vendor-2f735dbf47.css",
-  "js/artwork.js": "js/artwork-12289161ad.js",
-  "js/ie.js": "js/ie-489b973f76.js",
-  "js/index.js": "js/index-919bdc6b7f.js",
-  "js/jq.js": "js/jq-a0cdf7e1dc.js",
-  "js/statistic.js": "js/statistic-305e4d2003.js",
-  "js/vendor.js": "js/vendor-0f8b4f8803.js",
-  "js/wechat.js": "js/wechat-ad021d4c53.js"
+  "css/vendor-artworklist.css": "css/vendor-artworklist-9204530647.css",
+  "css/welcome.css": "css/welcome-6f6564f112.css",
+  "js/artwork.js": "js/artwork-6278342d13.js",
+  "js/artworklist.js": "js/artworklist-34e9fe5aab.js",
+  "js/ie.js": "js/ie-0306dfb3bb.js",
+  "js/jq.js": "js/jq-4c2e0f12e5.js",
+  "js/statistic.js": "js/statistic-88f20fced4.js",
+  "js/vendor-artworklist.js": "js/vendor-artworklist-28fefa1922.js",
+  "js/vendor-welcome.js": "js/vendor-welcome-9b53eac4cd.js",
+  "js/wechat.js": "js/wechat-f73f903a23.js",
+  "js/welcome.js": "js/welcome-431b2bbbc8.js"
 }

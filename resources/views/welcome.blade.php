@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('css')
-    <link rel="stylesheet" href="{{ elixir('css/main.css') }}">
+    <link rel="stylesheet" href="{{ elixir('css/welcome.css') }}">
 @endsection
 
 
@@ -35,7 +35,7 @@
             <div class="review">
                 <div class="l">
                     <div id="screen" class="screen">
-                        <img id="artimg" src="images/example.png" alt="">
+                        <img id="artimg" src="images/example.jpeg" alt="">
                         <div class="process-rate"><!--20%--></div>
                         <div class="process">Processing...</div>
                     </div>
@@ -88,8 +88,8 @@
 
 
 @section('js')
-    <script src="{{ elixir('js/vendor.js') }}"></script>
-    <script src="{{ elixir('js/index.js') }}"></script>
+    <script src="{{ elixir('js/vendor-welcome.js') }}"></script>
+    <script src="{{ elixir('js/welcome.js') }}"></script>
 @endsection
 
 

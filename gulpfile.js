@@ -2,7 +2,7 @@ var elixir = require('laravel-elixir');
 
 require('laravel-elixir-imagemin');
 
-elixir.config.sourcemaps = false;
+elixir.config.sourcemaps = true;
 
 /*
  |--------------------------------------------------------------------------
@@ -17,47 +17,61 @@ elixir.config.sourcemaps = false;
 
 elixir(function(mix) {
 
-    // copy bower_components to resources dir
-    mix.copy(['bower_components/html5shiv/dist/html5shiv.min.js',
-        'bower_components/respond/dest/respond.min.js'
-    ], 'resources/assets/js/');
-
-    mix.copy('bower_components/bootstrap/dist/css/bootstrap.css'
-    , 'resources/assets/css/');
-
-    mix.copy(['bower_components/jquery/dist/jquery.min.js',
-        'bower_components/js-cookie/src/js.cookie.js',
-        'bower_components/dropzone/dist/min/dropzone.min.js',
-        'bower_components/qrcode.js/qrcode.js',
-        'bower_components/PrintArea/demo/jquery.PrintArea.js'
-    ], 'resources/assets/js/');
-
+    mix.imagemin('./resources/assets/images', 'public/images/');
 
     mix.copy('resources/assets/fonts', 'public/fonts');
 
-    // imagemin
-    mix.imagemin('./resources/assets/images', 'public/images/');
+    mix.copy('bower_components/bootstrap/dist/css/bootstrap.css'
+        , 'resources/assets/css/');
 
+    mix.copy(['bower_components/html5shiv/dist/html5shiv.min.js',
+        'bower_components/respond/dest/respond.min.js',
+        'bower_components/jquery/dist/jquery.min.js',
+        'bower_components/js-cookie/src/js.cookie.js',
+        'bower_components/dropzone/dist/min/dropzone.min.js',
+        'bower_components/qrcode.js/qrcode.js',
+        'bower_components/PrintArea/demo/jquery.PrintArea.js',
+        'bower_components/bootstrap/dist/js/bootstrap.js'
+    ], 'resources/assets/js/');
 
+    mix.copy('resources/assets/uploads', 'public/uploads');
 
-    // merge
-    mix.styles(['dropzone.min.css'], 'public/css/vendor.css')
-        .styles(['bootstrap.css'], 'public/css/bs.css')
-        .styles(['main.css'], 'public/css/main.css');
 
     mix.scripts(['html5shiv.min.js', 'respond.min.js'], 'public/js/ie.js')
         .scripts(['jquery.min.js', 'js.cookie.js'], 'public/js/jq.js')
-        .scripts(['dropzone.min.js', 'qrcode.js', 'jquery.PrintArea.js'], 'public/js/vendor.js')
-        .scripts('index.js', 'public/js/index.js')
-        .scripts('artwork.js', 'public/js/artwork.js')
         .scripts('jweixin-1.0.0.js', 'public/js/wechat.js')
         .scripts('statistic.js', 'public/js/statistic.js');
 
 
-    // version
-    mix.version(['css/vendor.css', 'css/main.css', 'css/bs.css', 'js/ie.js', 'js/jq.js', 'js/vendor.js', 'js/index.js', 'js/artwork.js', 'js/wechat.js', 'js/statistic.js']);
 
-    // uploads
-    mix.copy('resources/assets/uploads', 'public/uploads');
+    // welcome page
+    mix.styles(['welcome.css'], 'public/css/welcome.css');
+
+    mix.scripts(['dropzone.min.js', 'qrcode.js', 'jquery.PrintArea.js'], 'public/js/vendor-welcome.js')
+        .scripts('welcome.js', 'public/js/welcome.js');
+
+    mix.version(['css/welcome.css', 'js/vendor-welcome.js', 'js/welcome.js']);
+
+
+    // arwork page
+    mix.scripts('artwork.js', 'public/js/artwork.js');
+
+
+    // artworklist page
+    mix.styles(['bootstrap.css'], 'public/css/vendor-artworklist.css');
+
+    mix.scripts(['qrcode.js'], 'public/js/vendor-artworklist.js')
+       .scripts('artworklist.js', 'public/js/artworklist.js');
+
+
+
+
+    mix.version(['js/ie.js', 'js/jq.js', 'js/wechat.js', 'js/statistic.js',
+        'css/welcome.css', 'js/vendor-welcome.js', 'js/welcome.js',
+        'js/artwork.js',
+        'css/vendor-artworklist.css', 'js/vendor-artworklist.js', 'js/artworklist.js'
+    ]);
+
+
 });
 
